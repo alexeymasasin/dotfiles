@@ -1,7 +1,0 @@
-2024-10-07 13:40:52.218 [info] Started local extension host with pid 13923.
-2024-10-07 13:40:54.822 [info] [perf] Render performance baseline is 15ms
-2024-10-07 13:41:38.266 [info] Settings Sync: Updating due to change in sessions
-2024-10-07 13:41:38.267 [info] Settings Sync: Updated current session dfd57fac24d7994f
-2024-10-07 13:43:48.870 [error] [Extension Host] (node:13923) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `exe --trace-deprecation ...` to show where the warning was created)
-2024-10-07 13:43:49.728 [error] ENOENT: no such file or directory, open '/home/alexeymasasin/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/alexeymasasin/.config/Code/User/globalStorage/vscodevim.vim/.registers'
