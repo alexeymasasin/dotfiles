@@ -10,12 +10,24 @@ super + shift + {f,n,p,t,c,i,x,l}
 	telegram-desktop, \
 	code, \
 	firefox --private-window, \
-	sh ~/scripts/xcolor-pick, \
+	xcolor -s clipboard, \
 	sh ~/scripts/screen-lock}
+
+# set random wallpaper
+super + w
+	feh --randomize --no-fehbg --bg-fill ~/system-images/wallpapers
 
 # screenshot
 Print
     flameshot gui
+
+# switch layouts
+shift + alt
+    setxkbmap -query | grep -q 'ru' && setxkbmap us || setxkbmap ru,us
+
+# launch rofi menu
+super + {d,x}
+    {rofi -show drun,sh $HOME/bin/powermenu}
 
 # terminal emulator
 super + Return

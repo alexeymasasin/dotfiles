@@ -27,7 +27,7 @@ window {
     height: 460px;
     border: 2px;
     border-color: @border-col;
-    border-radius: 8px;
+    border-radius: 0px;
     background-color: @bg-col;
 }
 
@@ -38,7 +38,7 @@ mainbox {
 inputbar {
     children: [prompt,entry];
     background-color: @bg-col;
-    border-radius: 8px;
+    border-radius: 0px;
     padding: 2px;
 }
 
@@ -46,7 +46,7 @@ prompt {
     background-color: @blue;
     padding: 6px;
     text-color: @bg-col;
-    border-radius: 3px;
+    border-radius: 0px;
     margin: 20px 0px 0px 20px;
 }
 
