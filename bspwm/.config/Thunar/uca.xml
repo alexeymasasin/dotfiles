@@ -12,4 +12,15 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon>riot-tray</icon>
+	<name>Open as Root</name>
+	<submenu></submenu>
+	<unique-id>1728318834051098-1</unique-id>
+	<command>pkexec thunar %d</command>
+	<description>Open as Root</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
 </actions>
