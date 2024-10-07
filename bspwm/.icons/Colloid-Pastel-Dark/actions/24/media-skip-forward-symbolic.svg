@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <g fill="#fdfdfd" opacity=".7">
+        <path fill-rule="evenodd" d="M-15 4h1v8h-1z" style="paint-order:stroke fill markers" transform="matrix(-1 0 0 1 4 4)"/>
+        <path d="M6 8v8l6-4-5.4-3.6zM12 8v8l6-4-5.4-3.6z"/>
+    </g>
+</svg>

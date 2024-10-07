@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+    <defs>
+        <filter id="filter976" width="1.294" height="1.294" x="-.147" y="-.147" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation=".259"/>
+        </filter>
+    </defs>
+    <style id="current-color-scheme" type="text/css">
+        .ColorScheme-PositiveText{color:#bddbd4}.ColorScheme-Text{color:#232629}
+    </style>
+    <rect width="4.234" height="4.234" x="-5.292" y="-5.027" filter="url(#filter976)" opacity=".25" rx="2.117" ry="2.117" transform="matrix(0 -3.7794 -3.7794 0 0 0)"/>
+    <rect width="15.998" height="15.998" x="-18.999" y="-18.999" fill="#bddbd4" stroke-width="3.779" rx="8.001" ry="8.001" transform="matrix(0 -1 -1 0 0 0)"/>
+    <path fill-opacity=".46" d="M13 6.333C11.306 6.335 9.565 7.403 9 9H7v4h2.001c.564 1.597 2.306 2.665 3.999 2.667V14h3v-1h-3V9h3V8h-3z"/>
+    <path stroke-width="3.78" d="M11 3a7.982 7.982 0 0 0-7.984 8.5C3.272 7.303 6.736 4 11 4s7.728 3.303 7.984 7.5A7.982 7.982 0 0 0 11 3z" opacity=".2"/>
+</svg>

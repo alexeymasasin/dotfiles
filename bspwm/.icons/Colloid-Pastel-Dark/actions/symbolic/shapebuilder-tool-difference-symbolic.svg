@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <g fill="#fdfdfd" opacity=".7">
+        <path d="M5.5 1A4.5 4.5 0 0 0 1 5.5 4.5 4.5 0 0 0 5.5 10 4.5 4.5 0 0 0 10 5.5 4.5 4.5 0 0 0 5.5 1zm0 1A3.5 3.5 0 0 1 9 5.5 3.5 3.5 0 0 1 5.5 9 3.5 3.5 0 0 1 2 5.5 3.5 3.5 0 0 1 5.5 2zM3 5v1h5V5H3z" opacity=".45"/>
+        <path fill-rule="evenodd" d="M36.963 6A5.5 5.5 0 0 1 32 10.963V15h9V6z" style="paint-order:stroke fill markers" transform="translate(-26)"/>
+    </g>
+</svg>

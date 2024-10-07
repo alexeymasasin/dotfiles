@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <defs>
+        <filter id="a" width="1.104" height="1.089" x="-.052" y="-.045" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="1.04"/>
+        </filter>
+    </defs>
+    <rect width="48" height="56" x="8" y="5" filter="url(#a)" opacity=".15" rx="5" ry="5"/>
+    <rect width="48" height="56" x="8" y="4" fill="#fff" rx="5" ry="5"/>
+    <path fill-rule="evenodd" d="M20 20h24v1H20zm0 3h24v1H20zm0 3h24v1H20zm0 6h24v1H20zm0 3h24v1H20zm0 3h24v1H20zm0 6h24v1H20zm0-15h24v1H20zm0 12h24v1H20z" opacity=".25"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <path d="M9.192-1.464v5h5v-1h-4v-4h-1zm6.315-6.314v1h4v4h1v-5h-5z" style="fill:#fdfdfd;fill-opacity:.7;fill-rule:evenodd;stroke-width:.912871;stroke-linecap:square;stop-color:#000" transform="rotate(45)"/>
+    <path d="M13.42 1.588h1v8h-1z" style="fill:#fdfdfd;fill-opacity:.7;fill-rule:evenodd;stroke-linecap:square;stop-color:#000" transform="rotate(15)"/>
+    <path d="M15.5 14a3.5 3.5 0 0 0-3.5 3.5 3.5 3.5 0 0 0 3.5 3.5 3.5 3.5 0 0 0 3.5-3.5 3.5 3.5 0 0 0-3.5-3.5Zm-.5 1h1v2h2v1h-2v2h-1v-2h-2v-1h2z" style="fill:#fdfdfd;fill-opacity:.7;fill-rule:evenodd;stroke-width:.875;stroke-linecap:square;stop-color:#000"/>
+</svg>

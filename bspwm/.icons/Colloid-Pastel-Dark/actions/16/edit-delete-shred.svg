@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <style id="current-color-scheme" type="text/css">
+        .ColorScheme-NegativeText{color:#d98c8c}
+    </style>
+    <path d="M3 2v5h1V3h5v3h3v1h1V5l-3-3zM2 8h12v1H2z" class="ColorScheme-NegativeText" style="fill:currentColor;fill-opacity:1;stroke:none"/>
+    <g fill="#d98c8c">
+        <path d="M3 10h1v4H3zM5 10h1v4H5zM7 10h1v4H7zM9 10h1v4H9zM11 10h1v4h-1z"/>
+    </g>
+</svg>

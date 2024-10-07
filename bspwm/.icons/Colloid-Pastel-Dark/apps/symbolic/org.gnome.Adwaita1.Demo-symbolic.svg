@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <filter id="a" width="1" height="1" x="0" y="0">
+        <feColorMatrix in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="c">
+        <g filter="url(#a)">
+            <path fill-opacity=".95" d="M0 0h16v16H0z"/>
+        </g>
+    </mask>
+    <clipPath id="b">
+        <path d="M0 0h192v152H0z"/>
+    </clipPath>
+    <mask id="e">
+        <g filter="url(#a)">
+            <path fill-opacity=".75" d="M0 0h16v16H0z"/>
+        </g>
+    </mask>
+    <clipPath id="d">
+        <path d="M0 0h192v152H0z"/>
+    </clipPath>
+    <mask id="g">
+        <g filter="url(#a)">
+            <path fill-opacity=".4" d="M0 0h16v16H0z"/>
+        </g>
+    </mask>
+    <clipPath id="f">
+        <path d="M0 0h192v152H0z"/>
+    </clipPath>
+    <mask id="i">
+        <g filter="url(#a)">
+            <path fill-opacity=".8" d="M0 0h16v16H0z"/>
+        </g>
+    </mask>
+    <linearGradient id="j" x1="16" x2="128" y1="96" y2="96" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#a0b6cb"/>
+        <stop offset=".429" stop-color="#a0b6cb"/>
+        <stop offset=".5" stop-color="#bac3de"/>
+        <stop offset=".571" stop-color="#a0b6cb"/>
+        <stop offset="1" stop-color="#a0b6cb"/>
+    </linearGradient>
+    <clipPath id="h">
+        <path d="M0 0h192v152H0z"/>
+    </clipPath>
+    <g fill="#fdfdfd" opacity=".7">
+        <path d="M1 7h8v8z"/>
+        <path d="M15 1H9v6z" opacity=".75"/>
+        <path d="M9 7h5v5z" opacity=".5"/>
+    </g>
+    <g clip-path="url(#b)" mask="url(#c)" transform="translate(-168 -16)">
+        <path fill="#fff" d="M36 68h36v36z"/>
+    </g>
+    <g clip-path="url(#d)" mask="url(#e)" transform="translate(-168 -16)">
+        <path fill="#fff" d="M96 44H72v24z"/>
+    </g>
+    <g clip-path="url(#f)" mask="url(#g)" transform="translate(-168 -16)">
+        <path fill="#fff" d="M72 68h18v18z"/>
+    </g>
+    <g clip-path="url(#h)" mask="url(#i)" transform="translate(-168 -16)">
+        <path fill="url(#j)" d="M16.496 67a7.974 7.974 0 0 0 1.766 8.656l48.082 48.082a7.975 7.975 0 0 0 11.312 0l48.082-48.082a7.982 7.982 0 0 0 1.77-8.656 8.012 8.012 0 0 1-1.77 2.656l-48.082 48.082a7.975 7.975 0 0 1-11.312 0L18.262 69.656A7.941 7.941 0 0 1 16.496 67z"/>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <rect width="15" height="2" y="1" fill="#bac3de" fill-rule="evenodd" rx="1" ry="1"/>
+    <rect width="12" height="2" x="1" y="4" fill="#bac3de" fill-rule="evenodd" rx="1" ry="1"/>
+    <rect width="10" height="2" x="4" y="7" fill="#bac3de" fill-rule="evenodd" rx="1" ry="1"/>
+    <rect width="8" height="2" x="3" y="10" fill="#bac3de" fill-rule="evenodd" rx="1" ry="1"/>
+    <rect width="4" height="2" x="6" y="13" fill="#bac3de" fill-rule="evenodd" rx="1" ry="1"/>
+</svg>

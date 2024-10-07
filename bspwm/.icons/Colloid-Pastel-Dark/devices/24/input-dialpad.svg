@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <style id="current-color-scheme" type="text/css">
+        .ColorScheme-Text{color:#fdfdfd;opacity:.7}
+    </style>
+    <g fill="#fdfdfd" fill-opacity=".7" stroke-width="1.5">
+        <path d="M5 3h3v3H5zM10 3h3v3h-3zM15 3h3v3h-3zM5 8h3v3H5zM10 8h3v3h-3zM15 8h3v3h-3zM5 13h3v3H5zM10 13h3v3h-3zM15 13h3v3h-3zM10 18h3v3h-3z" color="#fdfdfd"/>
+    </g>
+</svg>

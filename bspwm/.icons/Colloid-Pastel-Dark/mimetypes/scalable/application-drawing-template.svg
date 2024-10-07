@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <defs>
+        <filter id="a" width="1.104" height="1.089" x="-.052" y="-.045" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="1.04"/>
+        </filter>
+    </defs>
+    <rect width="48" height="56" x="8" y="5" filter="url(#a)" opacity=".15" rx="5" ry="5"/>
+    <rect width="48" height="56" x="8" y="4" fill="#fff" rx="5" ry="5"/>
+    <g stroke-width="4">
+        <path fill="none" stroke="#e5ac9a" stroke-width="1.002" d="m22.387 26.664 19.216 10.602"/>
+        <path fill="#918aa8" fill-opacity=".251" fill-rule="evenodd" stroke="#b2a7be" stroke-width="1.002" d="M24.001 46.004c13.002 5.998 19-8.001 8.002-14s-5-20.001 7.997-14.003"/>
+        <g stroke-dashoffset="1" transform="translate(-5.997 -6.997) scale(.24998)">
+            <circle cx="108" cy="132" r="6" fill="none" stroke="#e5ac9a" stroke-linejoin="round"/>
+            <circle cx="196" cy="180" r="6" fill="none" stroke="#e5ac9a" stroke-linejoin="round"/>
+            <path fill="#fff" stroke="#918aa8" d="M178 94h12v12h-12zm-32 56h12v12h-12zm-32 56h12v12h-12z"/>
+        </g>
+    </g>
+</svg>

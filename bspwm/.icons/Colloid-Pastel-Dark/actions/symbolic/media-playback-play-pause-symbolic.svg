@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <style id="current-color-scheme" type="text/css">
+            .ColorScheme-Text{color:#fdfdfd;opacity:.7}
+        </style>
+    </defs>
+    <g fill="#fdfdfd" opacity=".7">
+        <rect width="2.012" height="10" x="10" y="3" stroke-width="1.831" rx="1.006" ry="1.006"/>
+        <rect width="2" height="10" x="14" y="3" stroke-width="1.826" rx="1" ry="1"/>
+        <path stroke-width="1.561" d="M1.881 3.009a.973.973 0 0 0-.628.329.97.97 0 0 0-.253.665v7.995a.97.97 0 0 0 .253.664.974.974 0 0 0 .628.33.969.969 0 0 0 .69-.168L8.37 8.827a.987.987 0 0 0 .384-.51 1 1 0 0 0-.381-1.14l-5.803-4a.955.955 0 0 0-.689-.168z"/>
+    </g>
+</svg>

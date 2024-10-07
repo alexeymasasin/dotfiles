@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <linearGradient id="a" x1="12.707" x2="16" y1="5" y2="29.707" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#a8decc"/>
+        <stop offset=".25" stop-color="#a8decc"/>
+        <stop offset=".5" stop-color="#a8decc"/>
+        <stop offset="1" stop-color="#a8decc"/>
+    </linearGradient>
+    <linearGradient id="c" x1="12.195" x2="22.877" y1="1.728" y2="24.25" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#a8decc"/>
+        <stop offset=".25" stop-color="#a8decc"/>
+        <stop offset=".5" stop-color="#a8decc"/>
+        <stop offset="1" stop-color="#a8decc"/>
+    </linearGradient>
+    <linearGradient id="d" x1="12.592" x2="24.107" y1="7.65" y2="19.165" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#a8decc"/>
+        <stop offset="1" stop-color="#a8decc"/>
+    </linearGradient>
+    <linearGradient id="b" x1="8.793" x2="21.207" y1="11.793" y2="24.207" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#a8decc"/>
+        <stop offset="1" stop-color="#a8decc"/>
+    </linearGradient>
+    <path fill="url(#a)" d="M2.5 5.5v10L16 29l10-10L12.5 5.5zm5 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/>
+    <path fill="url(#b)" d="M14.5 11.793 8.793 17.5l.707.707 5.707-5.707zm3 3L11.793 20.5l.707.707 5.707-5.707zm3 3L14.793 23.5l.707.707 5.707-5.707z"/>
+    <path fill="url(#c)" d="M12.15 2.27 2.629 5.323l3.054 9.522 16.98 8.73L29.128 11zM8.918 6.057a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5 2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5z"/>
+    <path fill="#a8decc" fill-rule="evenodd" d="M8.918 6.057a2.496 2.496 0 0 0-2.45 1.996l-.023.123a2.5 2.5 0 0 0-.013.11A2.5 2.5 0 0 1 7.5 8a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-.096.355 2.522 2.522 0 0 0 .782-.53 2.492 2.492 0 0 0 .732-1.768c0-.69-.28-1.316-.732-1.768a2.492 2.492 0 0 0-1.768-.732z"/>
+    <path fill="url(#d)" d="m15.978 7.65-3.69 7.177.888.458 3.691-7.178zm3.773 1.94-3.69 7.177.888.458 3.691-7.178zm3.773 1.94-3.69 7.178.888.457 3.691-7.178z"/>
+</svg>

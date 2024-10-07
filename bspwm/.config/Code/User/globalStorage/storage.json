@@ -41,6 +41,17 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "workbench.action.openProfile.clear",
+                                    "label": "clear"
+                                },
+                                {
+                                    "id": "workbench.action.openProfile.Default",
+                                    "label": "Default"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.createProfile",
                                     "label": "New Profile..."
                                 }
@@ -109,11 +120,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -195,8 +208,9 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Backup and Sync Settings..."
+                                    "id": "workbench.userDataSync.actions.manage",
+                                    "label": "Settings Sync is On",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -213,11 +227,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -262,11 +278,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -413,7 +431,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -496,8 +515,7 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.alignPanelCenter",
-                                                "label": "Center",
-                                                "checked": true
+                                                "label": "Center"
                                             },
                                             {
                                                 "id": "workbench.action.alignPanelJustify",
@@ -509,7 +527,8 @@
                                             },
                                             {
                                                 "id": "workbench.action.alignPanelRight",
-                                                "label": "Right"
+                                                "label": "Right",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -561,8 +580,7 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
@@ -622,6 +640,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1414,6 +1439,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1639,30 +1669,30 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#111018",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "titleBarBorder": "#2b2b2b",
-            "activityBarBackground": "#181818",
-            "activityBarBorder": "#2b2b2b",
-            "sideBarBackground": "#181818",
-            "sideBarBorder": "#2b2b2b",
-            "statusBarBackground": "#181818",
-            "statusBarBorder": "#2b2b2b",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#f5faff",
+            "background": "#111018",
+            "editorBackground": "#111018",
+            "titleBarBackground": "#0f0e15",
+            "titleBarBorder": "#211e2f",
+            "activityBarBackground": "#0f0e15",
+            "activityBarBorder": "#211e2f",
+            "sideBarBackground": "#0f0e15",
+            "sideBarBorder": "#211e2f",
+            "statusBarBackground": "#0f0e15",
+            "statusBarBorder": "#211e2f",
+            "statusBarNoFolderBackground": "#231f30"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 245,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1672,12 +1702,19 @@
             "backupPath": "/home/alexeymasasin/.config/Code/Backups/1728274464933",
             "uiState": {
                 "mode": 1,
-                "x": 10,
-                "y": 594,
-                "width": 1002,
-                "height": 476
+                "x": 644,
+                "y": 63,
+                "width": 1266,
+                "height": 1007
             }
         },
         "openedWindows": []
-    }
+    },
+    "userDataProfiles": [
+        {
+            "location": "353c2cb",
+            "name": "clear",
+            "icon": "pulse"
+        }
+    ]
 }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <defs>
+        <style id="current-color-scheme" type="text/css">
+            .ColorScheme-Text{color:#fdfdfd;opacity:.7}
+        </style>
+    </defs>
+    <circle cx="13" cy="13" r="2" fill="currentColor" stroke-width="1.333" style="color:#a0b6cb"/>
+    <path fill="#fdfdfd" fill-opacity=".7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.5 12V6.914L5.879 8.535l-.707-.707L8 5l2.828 2.828-.707.707L8.5 6.915V12z" style="paint-order:stroke fill markers"/>
+    <path fill="#fdfdfd" fill-opacity=".7" d="M8 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 3.14-.654 3 3 0 0 1-.704-.801A7 7 0 0 1 8 15a7 7 0 0 1-7-7 7 7 0 0 1 6.906-7A7 7 0 0 1 8 1a7 7 0 0 1 7 7 7 7 0 0 1-.453 2.43 3 3 0 0 1 .8.705A8 8 0 0 0 16 8a8 8 0 0 0-8-8z"/>
+</svg>

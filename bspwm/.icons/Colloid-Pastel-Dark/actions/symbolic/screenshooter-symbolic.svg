@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <rect width="5" height="1" x="7" y="2" fill="#fdfdfd" fill-opacity=".7" rx="0" ry="0"/>
+    <path fill="#fdfdfd" fill-opacity=".7" d="M3 0C1.338 0 0 1.338 0 3v2h1V3c0-1.108.892-2 2-2h2V0H3zm8 0v1h2c1.108 0 2 .892 2 2v2h1V3c0-1.662-1.338-3-3-3h-2zM0 11v2c0 1.662 1.338 3 3 3h2v-1H3c-1.108 0-2-.892-2-2v-2H0zm15 0v2c0 1.108-.892 2-2 2h-2v1h2c1.662 0 3-1.338 3-3v-2h-1z"/>
+    <path fill="#fdfdfd" fill-opacity=".7" d="M4 4c-1.108 0-2 .892-2 2v5c0 1.108.892 2 2 2h8c1.108 0 2-.892 2-2V6c0-1.108-.892-2-2-2H4zm0 1h8c.554 0 1 .446 1 1v5c0 .554-.446 1-1 1H4c-.554 0-1-.446-1-1V6c0-.554.446-1 1-1z" style="paint-order:fill markers stroke"/>
+    <path fill="#fdfdfd" fill-opacity=".7" d="M9.5 6A2.5 2.5 0 0 0 7 8.5 2.5 2.5 0 0 0 9.5 11 2.5 2.5 0 0 0 12 8.5 2.5 2.5 0 0 0 9.5 6zm0 1A1.5 1.5 0 0 1 11 8.5 1.5 1.5 0 0 1 9.5 10 1.5 1.5 0 0 1 8 8.5 1.5 1.5 0 0 1 9.5 7zM4 6h1v1H4z" style="paint-order:fill markers stroke"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <path fill="#fdfdfd" fill-opacity=".7" d="m7.994 1-5.969.031a1 1 0 0 0-.994.994L1 7.995a1 1 0 0 0 .322.74l6.5 6a1 1 0 0 0 1.385-.028L12 11.914V10.5L8.5 14 2 8l.031-5.969L8 2l4 4.332V4.859L8.734 1.322A1 1 0 0 0 7.994 1zM5.5 4a1.5 1.5 0 1 0 .001 3.001A1.5 1.5 0 0 0 5.5 4z" class="ColorScheme-Text" color="#fdfdfd"/>
+    <circle cx="14" cy="3" r="1" fill="#fdfdfd" fill-opacity=".7" style="paint-order:stroke fill markers"/>
+    <circle cx="14" cy="8" r="1" fill="#fdfdfd" fill-opacity=".7" style="paint-order:stroke fill markers"/>
+    <circle cx="14" cy="13" r="1" fill="#fdfdfd" fill-opacity=".7" style="paint-order:stroke fill markers"/>
+</svg>

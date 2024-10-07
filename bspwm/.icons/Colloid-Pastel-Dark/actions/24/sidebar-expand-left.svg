@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <g fill="currentColor" style="color:#fdfdfd;opacity:.7">
+        <path d="M4 4v16h16V4zm5 1h10v14H9z"/>
+        <path d="M12.354 7.646 16.707 12l-4.353 4.354-.708-.708L15.293 12l-3.647-3.646z"/>
+    </g>
+</svg>

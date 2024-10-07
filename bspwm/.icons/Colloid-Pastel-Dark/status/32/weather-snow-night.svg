@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+    <defs>
+        <style id="current-color-scheme" type="text/css">
+            .ColorScheme-Text{color:#4d4d4d}.ColorScheme-Background{color:#f2f2f2}.ColorScheme-Highlight{color:#a8decc}.ColorScheme-ViewText{color:#333}.ColorScheme-ViewBackground{color:#f9f9f9}.ColorScheme-ViewHover{color:#87cdde}.ColorScheme-ViewFocus{color:#a8decc}.ColorScheme-ButtonText{color:#333}.ColorScheme-ButtonBackground{color:#f2f2f2}.ColorScheme-ButtonHover{color:#87cdde}.ColorScheme-ButtonFocus{color:#a8decc}
+        </style>
+    </defs>
+    <path fill="#e6e6e6" d="M13 4A10 10 0 0 0 3 14a10 10 0 0 0 10 10h9a7 7 0 0 0 7-7 7 7 0 0 0-6.836-6.996A10 10 0 0 0 13 4z"/>
+    <path fill="#ccc" d="M11.5 24c-.831 0-1.5.669-1.5 1.5s.669 1.5 1.5 1.5 1.5-.669 1.5-1.5-.669-1.5-1.5-1.5zm10 0c-.831 0-1.5.669-1.5 1.5s.669 1.5 1.5 1.5 1.5-.669 1.5-1.5-.669-1.5-1.5-1.5zm-14 3c-.831 0-1.5.669-1.5 1.5S6.669 30 7.5 30 9 29.331 9 28.5 8.331 27 7.5 27zm9 0c-.831 0-1.5.669-1.5 1.5s.669 1.5 1.5 1.5 1.5-.669 1.5-1.5-.669-1.5-1.5-1.5zm9 0c-.831 0-1.5.669-1.5 1.5s.669 1.5 1.5 1.5 1.5-.669 1.5-1.5-.669-1.5-1.5-1.5z"/>
+    <path fill="#dbdbe3" d="M29.333 1.334a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zm-25.5 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm19 0a3 3 0 0 1-3 3 3 3 0 0 1 3 3 3 3 0 0 1 3-3 3 3 0 0 1-3-3zm4 5a2 2 0 0 1-2 2 2 2 0 0 1 2 2 2 2 0 0 1 2-2 2 2 0 0 1-2-2z"/>
+    <g fill="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <circle cx="11.277" cy="18.207" r="1.113"/>
+        <circle cx="17.205" cy="21.016" r="1.081"/>
+        <circle cx="22.404" cy="16.235" r="1.173"/>
+    </g>
+</svg>

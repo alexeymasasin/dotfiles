@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <defs id="defs3051">
+        <style id="current-color-scheme" type="text/css">
+            .ColorScheme-Highlight{color:#a0b6cb}
+        </style>
+    </defs>
+    <path d="M7 5v4H3v1h4v4h1v-4h3.979V9H8V5H7z" style="fill:currentColor;fill-opacity:1;stroke:none;color:#fdfdfd;opacity:.7" transform="translate(1 1)"/>
+    <path d="M12 16v1h7v-1h-7z" style="fill:#d98c8c;fill-opacity:1;stroke:none" transform="translate(1 1)"/>
+</svg>

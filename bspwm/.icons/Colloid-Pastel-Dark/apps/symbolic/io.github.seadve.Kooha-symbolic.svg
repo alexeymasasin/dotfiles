@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 4.233 4.233">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#a8decc"/>
+            <stop offset="1" stop-color="#a0b6cb"/>
+        </linearGradient>
+        <linearGradient id="b">
+            <stop offset="0" stop-color="#a0b6cb"/>
+            <stop offset="1" stop-color="#bac3de" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="c">
+            <stop offset="0" stop-color="#bac3de"/>
+            <stop offset="1" stop-color="#a8decc" stop-opacity=".138"/>
+        </linearGradient>
+    </defs>
+    <path fill="#fdfdfd" fill-opacity=".7" d="M.53 0A.528.528 0 0 0 0 .53v.528h.265V.53c0-.146.118-.264.264-.264h.53V0h-.53zm2.645 0v.265h.53c.146 0 .264.118.264.264v.53h.264v-.53A.528.528 0 0 0 3.704 0h-.529zM1.587 1.058a.528.528 0 0 0-.529.53v1.058c0 .293.236.529.53.529h1.587c.293 0 .53-.236.53-.53V1.588a.528.528 0 0 0-.53-.529H1.587zm-.529 1.059-.529-.53v1.059l.53-.53zm1.31-.794a.794.794 0 0 1 .013 0 .794.794 0 0 1 .794.794.794.794 0 0 1-.794.793.794.794 0 0 1-.794-.793.794.794 0 0 1 .78-.794zm0 .264a.53.53 0 0 0-.516.53.53.53 0 0 0 .53.529.53.53 0 0 0 .528-.53.53.53 0 0 0-.529-.529.53.53 0 0 0-.013 0zM0 3.175v.53c0 .292.236.528.53.528h.528V3.97H.53a.264.264 0 0 1-.264-.265v-.529H0zm3.969 0v.53a.264.264 0 0 1-.265.264h-.529v.264h.53c.292 0 .528-.236.528-.529v-.529H3.97z"/>
+</svg>

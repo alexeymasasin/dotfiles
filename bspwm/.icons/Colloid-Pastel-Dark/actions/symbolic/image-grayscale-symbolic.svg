@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <g fill="#fdfdfd" opacity=".7">
+        <path d="M4.024 2.01v11.991h-1V2.01" opacity=".83"/>
+        <path d="M5.024 2.01v11.991h-1V2.01" opacity=".74"/>
+        <path d="M5.024 2.01h1v11.991h-1" opacity=".65"/>
+        <path d="M6.024 2.01h1v11.991h-1" opacity=".57"/>
+        <path d="M7.024 2.01h1v11.991h-1" opacity=".49"/>
+        <path d="M8.024 2.01h1v11.991h-1" opacity=".4"/>
+        <path d="M9.024 2.01h1v11.991h-1" opacity=".32"/>
+        <path d="M10.024 2.01h1v11.991h-1" opacity=".24"/>
+        <path d="M11.024 2.01h1v11.991h-1" opacity=".16"/>
+        <path d="M12.024 2.01h1v11.991h-1" opacity=".07"/>
+        <path d="M3.028 2v11.994h-1V2" opacity=".94"/>
+        <path d="M32.004 220.37v15.996H48V220.37H32.004zm1 1H47v13.996H33.004V221.37z" color="#000" opacity=".7" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal" transform="translate(-31.976 -220.36)"/>
+    </g>
+</svg>

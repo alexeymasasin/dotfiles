@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <defs>
+        <style id="current-color-scheme" type="text/css">
+            .ColorScheme-Text{color:#fdfdfd;opacity:.7}.ColorScheme-Highlight{color:#a0b6cb}
+        </style>
+    </defs>
+    <path fill="#fdfdfd" fill-opacity=".7" stroke-linecap="round" stroke-linejoin="round" d="M4 1c-1.108 0-2 .892-2 2v10c0 1.108.892 2 2 2h8c1.108 0 2-.892 2-2V3c0-1.108-.892-2-2-2H4zm0 1h8c.554 0 1 .446 1 1v10c0 .554-.446 1-1 1H4c-.554 0-1-.446-1-1V3c0-.554.446-1 1-1z" style="paint-order:stroke markers fill"/>
+    <path fill="#fdfdfd" fill-opacity=".7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.291" d="M3 4h10v1H3z" style="paint-order:stroke markers fill"/>
+    <path fill="#fdfdfd" fill-opacity=".7" stroke-linecap="round" stroke-linejoin="round" d="M5 9h6v1H5z" style="paint-order:stroke markers fill"/>
+    <path fill="#fdfdfd" fill-opacity=".7" stroke-linecap="round" stroke-linejoin="round" stroke-width=".817" d="M5 11h4v1H5z" style="paint-order:stroke markers fill"/>
+    <path fill="#fdfdfd" fill-opacity=".7" stroke-linecap="round" stroke-linejoin="round" d="M5 7h6v1H5z" style="paint-order:stroke markers fill"/>
+</svg>

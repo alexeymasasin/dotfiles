@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <path fill="#fdfdfd" fill-opacity=".7" d="M1 5v8c0 1.108.892 2 2 2h9c1.108 0 2-.892 2-2V5h-1v8c0 .554-.446 1-1 1H3c-.554 0-1-.446-1-1V5H1z" style="paint-order:markers stroke fill"/>
+    <rect width="4.252" height="1" x="9.537" y="2.182" fill="#fdfdfd" fill-opacity=".7" rx="0" ry="0" style="paint-order:markers stroke fill" transform="rotate(45)"/>
+    <rect width="4.252" height="1" x="-1.07" y="12.789" fill="#fdfdfd" fill-opacity=".7" rx="0" ry="0" style="paint-order:markers stroke fill" transform="scale(-1 1) rotate(45)"/>
+    <rect width="1" height="5" x="7" y="6" fill="#fdfdfd" fill-opacity=".7" rx="0" ry="0" style="paint-order:markers stroke fill"/>
+    <path fill="#fdfdfd" fill-opacity=".7" d="M1 1c-.554 0-1 .446-1 1v2c0 .554.446 1 1 1h13c.554 0 1-.446 1-1V2c0-.554-.446-1-1-1H1zm0 1h13v2H1V2z" style="paint-order:markers stroke fill"/>
+</svg>

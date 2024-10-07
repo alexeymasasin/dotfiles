@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="weather-none-available.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="23.21875"
+     inkscape:cx="15.117093"
+     inkscape:cy="15.978466"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     fill="#ececec"
+     d="M16 6c-3.673 0-6.733 2.453-7.875 5.804C4.679 12.249 2 15.218 2 18.857 2 22.802 5.134 26 9 26h15.4c3.093 0 5.6-2.558 5.6-5.714s-2.507-5.714-5.6-5.714C24.4 9.838 20.639 6 16 6z"
+     id="path2" />
+  <circle
+     cx="16"
+     cy="23"
+     r="6"
+     fill="#eabc8a"
+     fill-rule="evenodd"
+     style="paint-order:stroke fill markers"
+     id="circle4" />
+  <path
+     fill="#fff"
+     fill-opacity=".902"
+     fill-rule="evenodd"
+     d="M15.259 24.656v-.196q0-.301.037-.545.042-.243.143-.455.106-.211.28-.412.175-.207.44-.429.253-.217.433-.392.18-.18.291-.36.117-.185.17-.39.058-.213.058-.493 0-.254-.08-.46-.079-.212-.232-.36-.148-.154-.376-.233-.222-.085-.518-.085-.44 0-.836.138t-.768.317l-.333-.767q.429-.222.926-.375.497-.16 1.01-.16.493 0 .884.138.397.133.672.387t.423.624q.149.365.149.825 0 .355-.075.635-.068.276-.211.514t-.355.46-.497.47q-.275.239-.45.419-.174.174-.275.344-.1.164-.138.338t-.037.408v.095zm-.254 1.603q0-.2.053-.338.053-.143.143-.228.09-.09.211-.127.122-.042.265-.042.138 0 .26.042.126.037.216.127.09.085.143.228.053.137.053.338 0 .196-.053.339-.053.137-.143.227t-.217.133q-.121.042-.259.042-.143 0-.265-.042t-.211-.133-.143-.227q-.053-.143-.053-.339z"
+     aria-label="?"
+     style="paint-order:stroke fill markers;fill:#000000;fill-opacity:0.69999999"
+     id="path6" />
+</svg>
