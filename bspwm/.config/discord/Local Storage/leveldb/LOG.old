@@ -1,5 +1,0 @@
-2024/10/07-21:10:11.401 efbd Creating DB /home/alexeymasasin/.config/discord/Local Storage/leveldb since it was missing.
-2024/10/07-21:10:11.406 efbd Reusing MANIFEST /home/alexeymasasin/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/10/07-21:13:18.200 efbe Level-0 table #5: started
-2024/10/07-21:13:18.207 efbe Level-0 table #5: 828874 bytes OK
-2024/10/07-21:13:18.208 efbe Delete type=0 #3
