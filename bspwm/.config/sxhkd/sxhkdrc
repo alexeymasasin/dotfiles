@@ -3,7 +3,7 @@
 #
 
 # launch applications
-super + shift + {f,n,p,t,c,i,x,l}
+super + shift + {f,n,p,t,c,i,x,q}
 	{firefox, \
 	thunar, \
 	pavucontrol, \
@@ -20,10 +20,6 @@ super + w
 # screenshot
 Print
     flameshot gui
-
-# switch layouts
-shift + alt
-    setxkbmap -query | grep -q 'ru' && setxkbmap us || setxkbmap ru,us
 
 # launch rofi menu
 super + {d,x}
