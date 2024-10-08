@@ -6,8 +6,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # enable picture-in-picture
 bspc rule -a '*:*:Picture-in-Picture' state=floating
 
-# workspaces
-bspc monitor -d 1 2 3 4 5 6 7 8
+# workspaces & monitors
+bspc wm -O +*HDMI-A-0 DisplayPort-2
+bspc monitor HDMI-A-0 -d 1 2 3 4 5 6 7 8 
+bspc monitor DisplayPort-2 -d 9 10
 
 ########### visual
 
