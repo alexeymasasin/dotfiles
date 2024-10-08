@@ -1,3 +1,7 @@
+# BSPWM
+
+### pacman -Qe:
+```
 alacritty 0.13.2-3
 amd-ucode 20240909.552ed9b8-1
 base 3-2
@@ -72,3 +76,4 @@ xorg-server 21.1.13-1
 xorg-xinit 1.4.2-2
 yarn 1.22.22-2
 zram-generator 1.1.2-1
+```
