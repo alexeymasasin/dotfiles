@@ -14,7 +14,7 @@ super + shift + {f,n,p,t,c,i,x,q}
 	sh ~/scripts/screen-lock}
 
 # set random wallpaper
-super + w
+super + alt + w
 	feh --randomize --no-fehbg --bg-fill ~/system-images/wallpapers
 
 # screenshot
