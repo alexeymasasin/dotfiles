@@ -9,6 +9,7 @@ base-devel 1-2
 blueberry 1.4.8-2
 bluez-utils 5.78-1
 bspwm 0.9.10-4
+deskreen 2.0.4-5
 discord 0.0.70-1
 dmenu 5.3-3
 dunst 1.11.0-1
@@ -22,6 +23,7 @@ grub 2:2.12-3
 gst-plugin-pipewire 1:1.2.5-1
 gvfs 1.56.0-1
 htop 3.3.0-3
+i2c-tools 4.3-6
 i3lock 2.15-2
 intel-media-driver 24.3.3-1
 iwd 2.22-1
@@ -40,6 +42,8 @@ network-manager-applet 1.36.0-1
 networkmanager 1.48.10-1
 nodejs-lts-iron 20.18.0-1
 noto-fonts-cjk 20230817-2
+ntfs-3g 2022.10.3-1
+openrgb 0.9-4
 os-prober 1.81-2
 pavucontrol 1:6.1-1
 picom 12.1-3
@@ -59,6 +63,7 @@ unzip 6.0-21
 vi 1:070224-6
 vim 9.1.0764-1
 visual-studio-code-bin 1.94.0-1
+vlc 3.0.21-6
 vulkan-intel 1:24.2.4-1
 vulkan-radeon 1:24.2.4-1
 wget 1.24.5-3
@@ -74,6 +79,7 @@ xf86-video-nouveau 1.0.17-3
 xf86-video-vmware 13.4.0-3
 xorg-server 21.1.13-1
 xorg-xinit 1.4.2-2
+xorg-xrandr 1.5.2-2
 yarn 1.22.22-2
 zram-generator 1.1.2-1
 ```
