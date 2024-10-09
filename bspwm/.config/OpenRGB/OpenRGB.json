@@ -2,13 +2,13 @@
     "AutoStart": {
         "client": "localhost:6742",
         "custom": "",
-        "enabled": false,
+        "enabled": true,
         "host": "0.0.0.0",
         "port": "6742",
-        "profile": "",
+        "profile": "Purple",
         "setclient": false,
         "setcustom": false,
-        "setminimized": false,
+        "setminimized": true,
         "setprofile": false,
         "setserver": false,
         "setserverhost": false,
@@ -1270,7 +1270,7 @@
             "x": 0,
             "y": 0
         },
-        "greyscale_tray_icon": false,
+        "greyscale_tray_icon": true,
         "language": "default",
         "minimize_on_close": false
     }

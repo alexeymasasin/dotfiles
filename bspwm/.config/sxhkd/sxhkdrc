@@ -3,11 +3,12 @@
 #
 
 # launch applications
-super + shift + {f,n,p,t,c,i,x,q}
+super + shift + {f,n,p,t,c,v,i,x,q}
 	{firefox, \
 	thunar, \
 	pavucontrol, \
 	telegram-desktop, \
+	google-chrome-stable, \
 	code, \
 	firefox --private-window, \
 	xcolor -s clipboard, \

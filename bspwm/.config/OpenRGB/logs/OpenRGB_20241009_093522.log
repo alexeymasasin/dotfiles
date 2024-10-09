@@ -1,0 +1,97 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241009_093522
+====================================================================================================
+
+0     |Info:    Found file: Purple.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Purple
+0     |Info:    Found file: Emerald.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Emerald
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |             Detecting I2C interfaces               |
+1007  |Info:    ------------------------------------------------------
+1008  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7E26
+1008  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1008  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1008  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1008  |Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+1008  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7E26
+1008  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1008  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Detecting I2C devices                |
+1008  |Info:    ------------------------------------------------------
+1298  |Info:    [ENE DRAM] Registering RGB controller
+1479  |Info:    [ENE DRAM] Registering RGB controller
+2382  |Info:    ------------------------------------------------------
+2382  |Info:    |               Detecting I2C PCI devices            |
+2382  |Info:    ------------------------------------------------------
+2382  |Info:    ------------------------------------------------------
+2382  |Info:    |               Detecting HID devices                |
+2382  |Info:    ------------------------------------------------------
+2453  |Info:    [KLM] Created new Tenkeyless ANSI QWERTY with 6 rows and 17 columns containing 87 keys
+2453  |Info:    [Razer Huntsman V2 TKL] Registering RGB controller
+2477  |Info:    [Razer Viper Ultimate (Wireless)] Registering RGB controller
+2501  |Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+2501  |Info:    ------------------------------------------------------
+2501  |Info:    |            Detecting libusb HID devices            |
+2501  |Info:    ------------------------------------------------------
+2585  |Info:    ------------------------------------------------------
+2585  |Info:    |              Detecting other devices               |
+2585  |Info:    ------------------------------------------------------
+2591  |Info:    ------------------------------------------------------
+2591  |Info:    |                Detection completed                 |
+2591  |Info:    ------------------------------------------------------
+5008  |Info:    ------------------------------------------------------
+5008  |Info:    |               Start device detection               |
+5008  |Info:    ------------------------------------------------------
+5008  |Info:    Initializing HID interfaces: Success
+5014  |Info:    ------------------------------------------------------
+5014  |Info:    |             Detecting I2C interfaces               |
+5014  |Info:    ------------------------------------------------------
+5014  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:164E Subsystem: 1462:7E26
+5014  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:164E Subsystem: 1462:7E26
+5014  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7E26
+5014  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+5014  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+5014  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+5014  |Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+5015  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:164E Subsystem: 1462:7E26
+5015  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:164E Subsystem: 1462:7E26
+5015  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7E26
+5015  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7E26
+5015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+5015  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+5015  |Info:    ------------------------------------------------------
+5015  |Info:    |               Detecting I2C devices                |
+5015  |Info:    ------------------------------------------------------
+5306  |Info:    [ENE DRAM] Registering RGB controller
+5486  |Info:    [ENE DRAM] Registering RGB controller
+6394  |Info:    ------------------------------------------------------
+6394  |Info:    |               Detecting I2C PCI devices            |
+6394  |Info:    ------------------------------------------------------
+6394  |Info:    ------------------------------------------------------
+6394  |Info:    |               Detecting HID devices                |
+6394  |Info:    ------------------------------------------------------
+6463  |Info:    [KLM] Created new Tenkeyless ANSI QWERTY with 6 rows and 17 columns containing 87 keys
+6463  |Info:    [Razer Huntsman V2 TKL] Registering RGB controller
+6487  |Info:    [Razer Viper Ultimate (Wireless)] Registering RGB controller
+6511  |Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+6511  |Info:    ------------------------------------------------------
+6511  |Info:    |            Detecting libusb HID devices            |
+6511  |Info:    ------------------------------------------------------
+6590  |Info:    ------------------------------------------------------
+6590  |Info:    |              Detecting other devices               |
+6590  |Info:    ------------------------------------------------------
+6591  |Info:    ------------------------------------------------------
+6591  |Info:    |                Detection completed                 |
+6591  |Info:    ------------------------------------------------------

@@ -1,0 +1,206 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241010_014118
+====================================================================================================
+
+0     |Info:    Found file: Purple.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Purple
+0     |Info:    Found file: Emerald.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Emerald
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |             Detecting I2C interfaces               |
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7E26
+1008  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1008  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1008  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1008  |Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+1008  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:164E Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7E26
+1008  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7E26
+1008  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1008  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Detecting I2C devices                |
+1008  |Info:    ------------------------------------------------------
+1298  |Info:    [ENE DRAM] Registering RGB controller
+1477  |Info:    [ENE DRAM] Registering RGB controller
+2380  |Info:    ------------------------------------------------------
+2380  |Info:    |               Detecting I2C PCI devices            |
+2380  |Info:    ------------------------------------------------------
+2381  |Info:    ------------------------------------------------------
+2381  |Info:    |               Detecting HID devices                |
+2381  |Info:    ------------------------------------------------------
+2448  |Info:    [KLM] Created new Tenkeyless ANSI QWERTY with 6 rows and 17 columns containing 87 keys
+2448  |Info:    [Razer Huntsman V2 TKL] Registering RGB controller
+2472  |Info:    [Razer Viper Ultimate (Wireless)] Registering RGB controller
+2496  |Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+2496  |Info:    ------------------------------------------------------
+2496  |Info:    |            Detecting libusb HID devices            |
+2496  |Info:    ------------------------------------------------------
+2578  |Info:    ------------------------------------------------------
+2578  |Info:    |              Detecting other devices               |
+2578  |Info:    ------------------------------------------------------
+2584  |Info:    ------------------------------------------------------
+2584  |Info:    |                Detection completed                 |
+2584  |Info:    ------------------------------------------------------
+11189 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+11189 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+11189 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+11189 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+11189 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+11823 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+11823 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+11823 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+11823 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+11823 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+11976 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+11976 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+11976 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+11976 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+11976 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+13436 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+13436 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+13436 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+13436 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+13436 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+13598 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+13598 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+13598 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+13598 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+13598 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+13786 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+13786 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+13786 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+13786 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+13786 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+14037 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+14037 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+14037 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+14037 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+14037 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+47646 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+47646 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+47646 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+47646 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+47646 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+51640 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+51640 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+51640 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+51640 |Info:    Profile loading: FAILED! for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+51640 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+80106 |Info:    ------------------------------------------------------
+80106 |Info:    |               Start device detection               |
+80106 |Info:    ------------------------------------------------------
+80106 |Info:    Initializing HID interfaces: Success
+80113 |Info:    ------------------------------------------------------
+80113 |Info:    |             Detecting I2C interfaces               |
+80113 |Info:    ------------------------------------------------------
+80113 |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:164E Subsystem: 1462:7E26
+80113 |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:164E Subsystem: 1462:7E26
+80113 |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7E26
+80113 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+80113 |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+80113 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+80113 |Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+80113 |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:164E Subsystem: 1462:7E26
+80113 |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:164E Subsystem: 1462:7E26
+80113 |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7E26
+80113 |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7E26
+80113 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+80113 |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+80113 |Info:    ------------------------------------------------------
+80113 |Info:    |               Detecting I2C devices                |
+80113 |Info:    ------------------------------------------------------
+80403 |Info:    [ENE DRAM] Registering RGB controller
+80584 |Info:    [ENE DRAM] Registering RGB controller
+81485 |Info:    ------------------------------------------------------
+81485 |Info:    |               Detecting I2C PCI devices            |
+81485 |Info:    ------------------------------------------------------
+81485 |Info:    ------------------------------------------------------
+81485 |Info:    |               Detecting HID devices                |
+81485 |Info:    ------------------------------------------------------
+81551 |Info:    [KLM] Created new Tenkeyless ANSI QWERTY with 6 rows and 17 columns containing 87 keys
+81551 |Info:    [Razer Huntsman V2 TKL] Registering RGB controller
+81575 |Info:    [Razer Viper Ultimate (Wireless)] Registering RGB controller
+81599 |Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+81599 |Info:    ------------------------------------------------------
+81599 |Info:    |            Detecting libusb HID devices            |
+81599 |Info:    ------------------------------------------------------
+81677 |Info:    ------------------------------------------------------
+81677 |Info:    |              Detecting other devices               |
+81677 |Info:    ------------------------------------------------------
+81678 |Info:    ------------------------------------------------------
+81678 |Info:    |                Detection completed                 |
+81678 |Info:    ------------------------------------------------------
+85164 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+85164 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+85164 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+85164 |Info:    Profile loading: Succeeded for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+85164 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+88326 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+88326 |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+88326 |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+88326 |Info:    Profile loading: Succeeded for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+88326 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+128625|Info:    ------------------------------------------------------
+128625|Info:    |               Start device detection               |
+128625|Info:    ------------------------------------------------------
+128625|Info:    Initializing HID interfaces: Success
+128631|Info:    ------------------------------------------------------
+128631|Info:    |             Detecting I2C interfaces               |
+128631|Info:    ------------------------------------------------------
+128631|Info:    Registering I2C interface: /dev/i2c-3 Device 1002:164E Subsystem: 1462:7E26
+128631|Info:    Registering I2C interface: /dev/i2c-1 Device 1002:164E Subsystem: 1462:7E26
+128631|Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7E26
+128631|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+128631|Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+128631|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+128631|Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+128631|Info:    Registering I2C interface: /dev/i2c-2 Device 1002:164E Subsystem: 1462:7E26
+128631|Info:    Registering I2C interface: /dev/i2c-0 Device 1002:164E Subsystem: 1462:7E26
+128669|Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7E26
+128669|Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7E26
+128669|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+128669|Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+128669|Info:    ------------------------------------------------------
+128669|Info:    |               Detecting I2C devices                |
+128669|Info:    ------------------------------------------------------
+128959|Info:    [ENE DRAM] Registering RGB controller
+129139|Info:    [ENE DRAM] Registering RGB controller
+130041|Info:    ------------------------------------------------------
+130041|Info:    |               Detecting I2C PCI devices            |
+130041|Info:    ------------------------------------------------------
+130041|Info:    ------------------------------------------------------
+130041|Info:    |               Detecting HID devices                |
+130041|Info:    ------------------------------------------------------
+130108|Info:    [KLM] Created new Tenkeyless ANSI QWERTY with 6 rows and 17 columns containing 87 keys
+130108|Info:    [Razer Huntsman V2 TKL] Registering RGB controller
+130131|Info:    [Razer Viper Ultimate (Wireless)] Registering RGB controller
+130155|Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+130155|Info:    ------------------------------------------------------
+130155|Info:    |            Detecting libusb HID devices            |
+130155|Info:    ------------------------------------------------------
+130234|Info:    ------------------------------------------------------
+130234|Info:    |              Detecting other devices               |
+130234|Info:    ------------------------------------------------------
+130235|Info:    ------------------------------------------------------
+130235|Info:    |                Detection completed                 |
+130235|Info:    ------------------------------------------------------
+139797|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+139797|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+139797|Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+139797|Info:    Profile loading: Succeeded for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+139797|Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
+147954|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+147954|Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+147954|Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw4
+147954|Info:    Profile loading: Succeeded for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw7
+147954|Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10
