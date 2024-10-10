@@ -1,51 +1,17 @@
-<table>
-<td>
-<table>
-  <tr>
-    <td align="center" colspan="1">
-      <a href="https://github.com/alexeymasasin/dotfiles/tree/main/bspwm"><img width="72px" src="https://raw.githubusercontent.com/baskerville/bspwm/af3bd8b4351f4478fe0fe3cfd6c09e44cb108b4b/artworks/bspwm_logo.svg"/></a>
-    </td>
-    <td><p align="center">BSPWM</p></td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <a href="https://github.com/alexeymasasin/dotfiles/tree/main/bspwm">Repository</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      OS:  <br/>
-      WM:  <br/>
-      Bar:  <br/>
-      Launcher:  <br/>
-      Compositor:  <br/>
-      Notifiy:  <br/>
-      Theme: <br/>
-      Icons: <br/>
-      Cursor: <br/>
-      Terminal:  <br/>
-      Shell:  <br/>
-    </td>
-    <td>
-      <a target="_blank" href="https://archlinux.org/">Arch Linux</a> <br/>
-      <a target="_blank" href="https://github.com/baskerville/bspwm">BSPWM</a> <br/>
-      <a target="_blank" href="https://github.com/polybar/polybar">Polybar</a> <br/>
-      <a target="_blank" href="https://github.com/davatorium/rofi">Rofi</a> <br/>
-      <a target="_blank" href="https://github.com/FT-Labs/picom">Picom</a> <br/>
-      <a target="_blank" href="https://github.com/dunst-project/dunst">Dunst</a> <br/>
-      <a target="_blank" href="https://draculatheme.com/gtk">Dracula</a> <br/>
-      <a target="_blank" href="https://www.gnome-look.org/p/2200291">Colloid Pastel</a> <br/>
-      <a target="_blank" href="https://www.gnome-look.org/p/1481466">XCursor Pro Dark</a> <br/>
-      Xterm <br/>
-      Bash <br/>
-    </td>
-  </tr>
-</table>
-</td>
-<td>
-  <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg"/>
-</td>
-</table>
+<h1 align="left"> Dotfiles</h1> 
+<img align="right" width="500px" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg"/>
+
+- OS: <a target="_blank" href="https://archlinux.org/">Arch Linux</a> <br/>
+- WM: <a target="_blank" href="https://github.com/baskerville/bspwm">BSPWM</a> <br/>
+- Bar: <a target="_blank" href="https://github.com/polybar/polybar">Polybar</a> <br/>
+- Launcher: <a target="_blank" href="https://github.com/davatorium/rofi">Rofi</a> <br/>
+- Compositor: <a target="_blank" href="https://github.com/FT-Labs/picom">Picom</a> <br/>
+- Notifiy: <a target="_blank" href="https://github.com/dunst-project/dunst">Dunst</a> <br/>
+- Theme: <a target="_blank" href="https://draculatheme.com/gtk">Dracula</a> <br/>
+- Icons: <a target="_blank" href="https://www.gnome-look.org/p/2200291">Colloid Pastel</a> <br/>
+- Cursor: <a target="_blank" href="https://www.gnome-look.org/p/1481466">XCursor Pro Dark</a> <br/>
+- Terminal: Xterm <br/>
+- Shell: Bash <br/>
 
 ## Fonts
 Run `fc-cache -fv fonts` and then install following fonts:
