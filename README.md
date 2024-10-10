@@ -6,12 +6,11 @@
 - Bar: <a target="_blank" href="https://github.com/polybar/polybar">Polybar</a> <br/>
 - Launcher: <a target="_blank" href="https://github.com/davatorium/rofi">Rofi</a> <br/>
 - Compositor: <a target="_blank" href="https://github.com/FT-Labs/picom">Picom</a> <br/>
+- Terminal: <a href="https://alacritty.org/">Alacritty</a> <br/>
 - Notifiy: <a target="_blank" href="https://github.com/dunst-project/dunst">Dunst</a> <br/>
 - Theme: <a target="_blank" href="https://draculatheme.com/gtk">Dracula</a> <br/>
 - Icons: <a target="_blank" href="https://www.gnome-look.org/p/2200291">Colloid Pastel</a> <br/>
 - Cursor: <a target="_blank" href="https://www.gnome-look.org/p/1481466">XCursor Pro Dark</a> <br/>
-- Terminal: Xterm <br/>
-- Shell: Bash <br/>
 
 ## Fonts
 Run `fc-cache -fv fonts` and then install following fonts:
