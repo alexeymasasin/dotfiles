@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="left">dotfiles</h1> 
-  <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg" width="70%" align="right" />
+  <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg" width="60%" align="right" />
 </p>
 
 <table>
