@@ -1,5 +1,12 @@
-# dotfiles
+<p align="center">
+  <h1 align="center">dotfiles</h2>
+</p>
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg" width="70%" />
+</p>
+
+### Env
 <table>
   <tr>
     <td align="center">
@@ -15,3 +22,13 @@
     </td>
   </tr>
 </table>
+
+### Screenshots
+<details>
+  <summary>BSPWM</summary>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg" width="40%" />
+    &nbsp;&nbsp;
+    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.jpg" width="40%" />
+  </p>
+</details>
