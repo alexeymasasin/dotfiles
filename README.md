@@ -1,8 +1,5 @@
-<p align="center">
-  <h1 align="left">dotfiles</h1> 
-  <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg" width="60%" align="right" />
-</p>
-
+<table>
+<td>
 <table>
   <tr>
     <td align="center" colspan="1">
@@ -44,7 +41,11 @@
     </td>
   </tr>
 </table>
-<br />
+</td>
+<td>
+  <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg"/>
+</td>
+</table>
 
 ## Fonts
 Run `fc-cache -fv fonts` and then install following fonts:
