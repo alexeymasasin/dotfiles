@@ -5,7 +5,7 @@
 # launch applications
 super + shift + {f,n,p,t,c,v,i,x,q}
 	{firefox, \
-	thunar, \
+	alacritty -e sudo ranger, \
 	pavucontrol, \
 	telegram-desktop, \
 	google-chrome-stable, \
