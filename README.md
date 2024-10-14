@@ -1,5 +1,5 @@
 <h1 align="left">BSPWM Dotfiles</h1> 
-<img align="right" width="500px" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png"/>
+<img align="right" width="30%" src="https://raw.githubusercontent.com/alexeymasasin/RCW-120/refs/heads/main/images/logos/transparent-bg.png"/>
 
 <table>
       <tr>
