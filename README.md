@@ -1,5 +1,5 @@
 <h1 align="left"> Dotfiles</h1> 
-<img align="right" width="500px" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg"/>
+<img align="right" width="500px" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.ppg"/>
 
 - OS: <a target="_blank" href="https://archlinux.org/">Arch Linux</a> <br/>
 - WM: <a target="_blank" href="https://github.com/baskerville/bspwm">BSPWM</a> <br/>
@@ -19,9 +19,9 @@ Run `fc-cache -fv fonts` and then install following fonts:
 
 ## Gallery
   <p align="center">
-    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.jpg" width="40%" />
+    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.ppg" width="40%" />
     &nbsp;&nbsp;
-    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.jpg" width="40%" />
+    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.ppg" width="40%" />
   </p>
 
 ## Packages
