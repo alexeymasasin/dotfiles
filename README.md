@@ -1,16 +1,48 @@
-<h1 align="left"> Dotfiles</h1> 
+<h1 align="left">BSPWM Dotfiles</h1> 
 <img align="right" width="500px" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png"/>
 
-- OS: <a target="_blank" href="https://archlinux.org/">Arch Linux</a> <br/>
-- WM: <a target="_blank" href="https://github.com/baskerville/bspwm">BSPWM</a> <br/>
-- Bar: <a target="_blank" href="https://github.com/polybar/polybar">Polybar</a> <br/>
-- Launcher: <a target="_blank" href="https://github.com/davatorium/rofi">Rofi</a> <br/>
-- Compositor: <a target="_blank" href="https://github.com/FT-Labs/picom">Picom</a> <br/>
-- Terminal: <a href="https://alacritty.org/">Alacritty</a> <br/>
-- Notifiy: <a target="_blank" href="https://github.com/dunst-project/dunst">Dunst</a> <br/>
-- Theme: <a target="_blank" href="https://draculatheme.com/gtk">Dracula</a> <br/>
-- Icons: <a target="_blank" href="https://www.gnome-look.org/p/2200291">Colloid Pastel</a> <br/>
-- Cursor: <a target="_blank" href="https://www.gnome-look.org/p/1481466">XCursor Pro Dark</a> <br/>
+<table>
+      <tr>
+            <td>OS</td>
+            <td><a target="_blank" href="https://archlinux.org/">Arch Linux</a></td>
+      </tr>
+      <tr>
+            <td>WM</td>
+            <td><a target="_blank" href="https://github.com/baskerville/bspwm">BSPWM</a></td>
+      </tr>
+      <tr>
+            <td>Bar</td>
+            <td><a target="_blank" href="https://github.com/polybar/polybar">Polybar</a></td>
+      </tr>
+      <tr>
+            <td>Launcher</td>
+            <td><a target="_blank" href="https://github.com/davatorium/rofi">Rofi</a></td>
+      </tr>
+      <tr>
+            <td>Compositor</td>
+            <td><a target="_blank" href="https://github.com/FT-Labs/picom">Picom</a></td>
+      </tr>
+      <tr>
+            <td>Terminal</td>
+            <td><a href="https://alacritty.org/">Alacritty</a></td>
+      </tr>
+      <tr>
+            <td>Notifiy</td>
+            <td><a target="_blank" href="https://github.com/dunst-project/dunst">Dunst</a></td>
+      </tr>
+      <tr>
+            <td>Theme</td>
+            <td><a target="_blank" href="https://draculatheme.com/gtk">Dracula</a></td>
+      </tr>
+      <tr>
+            <td>Icons</td>
+            <td><a target="_blank" href="https://www.gnome-look.org/p/2200291">Colloid Pastel</a></td>
+      </tr>
+      <tr>
+            <td>Cursor</td>
+            <td><a target="_blank" href="https://www.gnome-look.org/p/1481466">XCursor Pro Dark</a></td>
+      </tr>
+</table>
 
 ## Fonts
 Run `fc-cache -fv fonts` and then install following fonts:
