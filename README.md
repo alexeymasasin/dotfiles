@@ -158,4 +158,5 @@ Run `fc-cache -fv fonts` and then install following fonts:
   </p>
 
 <h3 id="credit">Credit for inspiration</h3>
-- [Zproger / bspwm-dotfiles](https://github.com/Zproger/bspwm-dotfiles)
+
+[Zproger / bspwm-dotfiles](https://github.com/Zproger/bspwm-dotfiles)
