@@ -52,6 +52,7 @@
 </table>
 
 <h2 id="fonts">Fonts</h2>
+
 Run `fc-cache -fv fonts` and then install following fonts:
 - https://www.nerdfonts.com/font-downloads <br>
       Arch package: `ttf-jetbrains-mono-nerd`
