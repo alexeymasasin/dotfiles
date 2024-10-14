@@ -151,12 +151,146 @@ Run `fc-cache -fv fonts` and then install following fonts:
 </details>
 
 <h2 id="gallery">Gallery</h2>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png" />
+<p align="center">
+<img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png" />
     &nbsp;&nbsp;
-    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.png" />
-  </p>
+<img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.png" />
+</p>
 
-<h3 id="credit">Credit for inspiration</h3>
+
+<table align="center">
+   <tr>
+      <th align="center">
+         <sup>:warning: WARNING :warning:</sup>
+      </th>
+   </tr>
+   <tr>
+      <td align="center">
+        THIS CONFIGURATION IS DESIGNED FOR 1920X1080 MONITORS,
+        SOME FUNCTIONALITY OF THE SHELL MAY NOT WORK AS IT SHOULD.
+        IN THIS CASE YOU NEED TO MAKE ADJUSTMENTS MANUALLY.
+        IF YOU FIND ERRORS IN THE SHELL, PLEASE REPORT THE PROBLEM.
+   </tr>
+   </table>
+
+## HotKeys
+<table>
+      <tr>
+            <th colspan="2">Main Hotkeys</th>
+      </tr>
+      <tr>
+            <td>Terminal</td>
+            <td>super + enter</td>
+      </tr>
+      <tr>
+            <td>Rofi Menu</td>
+            <td>super + d</td>
+      </tr>
+      <tr>
+            <td>Screenshot</td>
+            <td>print</td>
+      </tr>
+      <tr>
+            <td>Lock Screen</td>
+            <td>super + shift + q</td>
+      </tr>
+      <tr>
+            <td>Color Picker</td>
+            <td>super + shift + x</td>
+      </tr>
+      <tr>
+            <td>Random Wallpaper</td>
+            <td>super + alt + w</td>
+      </tr>
+      <tr>
+            <th colspan="2"><b>BSPWM</b></th>
+      </tr>
+      <tr>
+            <td>Close a Node</td>
+            <td>super + w</td>
+      </tr>
+      <tr>
+            <td>Kill a Node</td>
+            <td>super + shift + w</td>
+      </tr>
+      <tr>
+            <td>Restart BSPWM & Polybar</td>
+            <td>super + alt + r</td>
+      </tr>
+      <tr>
+            <td>Restart SXHKD</td>
+            <td>super + esc</td>
+      </tr>
+      <tr>
+            <td>Switch Desktops</td>
+            <td>super + 1 ... 9</td>
+      </tr>
+      <tr>
+            <td>Move a Node to Desktop</td>
+            <td>super + shift + 1 ... 9</td>
+      </tr>
+      <tr>
+            <td>Swith a Node to Floating Mode</td>
+            <td>super + s</td>
+      </tr>
+      <tr>
+            <th colspan="2"><b>Launch Applications</b></th>
+      </tr>
+      <tr>
+            <td>Telegram</td>
+            <td>super + shift + t</td>
+      </tr>
+      <tr>
+            <td>Visual Studio Code</td>
+            <td>super + shift + v</td>
+      </tr>
+      <tr>
+            <td>Firefox</td>
+            <td>super + shift + f</td>
+      </tr>
+      <tr>
+            <td>Firefox (Private Window)</td>
+            <td>super + shift + i</td>
+      </tr>
+      <tr>
+            <td>Chrome</td>
+            <td>super + shift + c</td>
+      </tr>
+      <tr>
+            <td>Thunar</td>
+            <td>super + shift + n</td>
+      </tr>
+      <tr>
+            <td>Ranger</td>
+            <td>super + shift + m</td>
+      </tr>
+      <tr>
+            <td>Volume Controller</td>
+            <td>super + shift + p</td>
+      </tr>
+      <tr>
+            <th colspan="2"><b>Open .config Files</b></th>
+      </tr>
+      <tr>
+            <td>BSPWMRC</td>
+            <td>super + shift + f1</td>
+      </tr>
+      <tr>
+            <td>SXHKDRC</td>
+            <td>super + shift + f2</td>
+      </tr>
+      <tr>
+            <td>Polybar</td>
+            <td>super + shift + f3</td>
+      </tr>
+      <tr>
+            <td>Picom</td>
+            <td>super + shift + f4</td>
+      </tr>
+</table>
+
+Other hotkeys are in `~/.config/sxhkd/sxhkdrc`.
+
+<h2 id="credit">Credit for inspiration</h2>
 
 [Zproger / bspwm-dotfiles](https://github.com/Zproger/bspwm-dotfiles)
