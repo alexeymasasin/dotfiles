@@ -7,9 +7,9 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bspc rule -a '*:*:Picture-in-Picture' state=floating
 
 # workspaces & monitors
-#bspc wm -O +*HDMI-A-0 DisplayPort-2
+bspc wm -O +*HDMI-A-0 DisplayPort-0
 bspc monitor HDMI-A-0 -d 1 2 3 4 5 6 7 8 
-#bspc monitor DisplayPort-2 -d 9 10
+bspc monitor DisplayPort-0 -d 9 10
 
 bspc config split_ratio          0.52
 
@@ -53,3 +53,10 @@ picom --config ~/.config/bspwm/picom_configurations/1.conf &
 
 blueberry-tray &
 flameshot &
+
+# launch deskreen if second display connected
+
+#if [[ $(xrandr -q | grep 'DisplayPort-0 connected') ]]; then
+#    deskreen
+#fi
+

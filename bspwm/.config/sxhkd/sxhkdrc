@@ -3,8 +3,9 @@
 #
 
 # launch applications
-super + shift + {f,n,p,t,c,v,i,x,q}
+super + shift + {f,n,m,p,t,c,v,i,x,q}
 	{firefox, \
+  	sudo thunar, \
 	alacritty -e sudo ranger, \
 	pavucontrol, \
 	telegram-desktop, \
@@ -13,6 +14,13 @@ super + shift + {f,n,p,t,c,v,i,x,q}
 	firefox --private-window, \
 	xcolor -s clipboard, \
 	sh ~/scripts/screen-lock}
+
+# open config files
+super + shift + {F1,F2,F3,F4} 
+	{sudo alacritty -e nvim ~/.config/bspwm/bspwmrc, \
+	sudo alacritty -e nvim ~/.config/sxhkd/sxhkdrc, \
+	sudo alacritty -e nvim ~/.config/polybar/config.ini, \
+	sudo alacritty -e nvim ~/.config/bspwm/picom_configurations/1.conf}
 
 # set random wallpaper
 super + alt + w
