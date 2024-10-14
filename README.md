@@ -1,10 +1,16 @@
 <h1 align="left">BSPWM Dotfiles</h1> 
-<img align="right" width="30%" src="https://raw.githubusercontent.com/alexeymasasin/RCW-120/refs/heads/main/images/logos/transparent-bg.png"/>
 
 <table>
       <tr>
             <td>OS</td>
             <td><a target="_blank" href="https://archlinux.org/">Arch Linux</a></td>
+            <td rowspan="10">
+                  <img align="center" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png"/>
+                  <br /> <br />
+                  <p align="center">
+                        [Fonts](#fonts) / [Packages](#packages) / [Gallery](#gallery) / [Credit](credit-for-inspiration)
+                  </p>
+            </td>
       </tr>
       <tr>
             <td>WM</td>
@@ -42,6 +48,7 @@
             <td>Cursor</td>
             <td><a target="_blank" href="https://www.gnome-look.org/p/1481466">XCursor Pro Dark</a></td>
       </tr>
+      
 </table>
 
 ## Fonts
