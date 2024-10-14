@@ -56,6 +56,8 @@
 Run `fc-cache -fv fonts` and then install following fonts:
 - https://www.nerdfonts.com/font-downloads <br>
       Arch package: `ttf-jetbrains-mono-nerd`
+- https://fonts.google.com/noto/specimen/Noto+Color+Emoji <br>
+      Arch package: `noto-fonts-emoji`
 
 <h2 id="packages">Packages</h2>
 <details>
