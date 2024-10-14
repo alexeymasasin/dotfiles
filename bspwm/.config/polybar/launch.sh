@@ -7,6 +7,7 @@ polybar example &
 
 if [[ $(xrandr -q | grep 'DisplayPort-0 connected') ]]; then
     polybar external &
-    xrandr --output DisplayPort-0 --mode 1920x1080 --below HDMI-A-0 &
+    xrandr --addmode DisplayPort-0 1366x768
+    xrandr --output DisplayPort-0 --mode 1366x768 --below HDMI-A-0 &
 fi
 
