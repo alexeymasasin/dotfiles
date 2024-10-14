@@ -17,16 +17,9 @@ Run `fc-cache -fv fonts` and then install following fonts:
 - https://www.nerdfonts.com/font-downloads <br>
       Arch package: `ttf-jetbrains-mono-nerd`
 
-## Gallery
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png" width="40%" />
-    &nbsp;&nbsp;
-    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.png" width="40%" />
-  </p>
-
 ## Packages
 <details>
-  <summary><b>pacman -Qe:</b></summary>
+  <summary><b>pacman -Qe</b></summary>
   
   ```
     alacritty 0.13.2-3
@@ -111,6 +104,13 @@ Run `fc-cache -fv fonts` and then install following fonts:
     zram-generator 1.1.2-1
   ```
 </details>
+
+## Gallery
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png" />
+    &nbsp;&nbsp;
+    <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.png" />
+  </p>
 
 ### Credit for inspiration
 - [Zproger / bspwm-dotfiles](https://github.com/Zproger/bspwm-dotfiles)
