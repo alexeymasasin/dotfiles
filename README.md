@@ -6,9 +6,9 @@
             <td><a target="_blank" href="https://archlinux.org/">Arch Linux</a></td>
             <td rowspan="10">
                   <img align="center" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png"/>
-                  <br /> <br />
+                  <br/><br/>
                   <p align="center">
-                        [Fonts](#fonts) / [Packages](#packages) / [Gallery](#gallery) / [Credit](credit-for-inspiration)
+                        <a href="#fonts">Fonts</a> / <a href="#packages">Packages</a> / <a href="#gallery">Gallery</a> / <a href="#credit">Credit</a> 
                   </p>
             </td>
       </tr>
@@ -51,12 +51,12 @@
       
 </table>
 
-## Fonts
+<h2 id="fonts">Fonts</h2>
 Run `fc-cache -fv fonts` and then install following fonts:
 - https://www.nerdfonts.com/font-downloads <br>
       Arch package: `ttf-jetbrains-mono-nerd`
 
-## Packages
+<h2 id="packages">Packages</h2>
 <details>
   <summary><b>pacman -Qe</b></summary>
   
@@ -144,12 +144,12 @@ Run `fc-cache -fv fonts` and then install following fonts:
   ```
 </details>
 
-## Gallery
+<h2 id="gallery">Gallery</h2>
   <p align="center">
     <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png" />
     &nbsp;&nbsp;
     <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.png" />
   </p>
 
-### Credit for inspiration
+<h3 id="credit">Credit for inspiration</h3>
 - [Zproger / bspwm-dotfiles](https://github.com/Zproger/bspwm-dotfiles)
