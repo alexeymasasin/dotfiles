@@ -8,7 +8,7 @@
                   <img align="center" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png"/>
                   <br/><br/>
                   <p align="center">
-                        <a href="#fonts">Fonts</a> / <a href="#packages">Packages</a> / <a href="#gallery">Gallery</a> / <a href="#credit">Credit</a> 
+                        <a href="#fonts">Fonts</a> / <a href="#packages">Packages</a> / <a href="#gallery">Gallery</a> / <a href="#hotkeys">Hotkeys</a> / <a href="#credit">Credit</a> 
                   </p>
             </td>
       </tr>
@@ -173,7 +173,7 @@ Run `fc-cache -fv fonts` and then install following fonts:
    </tr>
    </table>
 
-## HotKeys
+<h2 id="hotkeys">HotKeys</h2>
 <table>
       <tr>
             <th colspan="2">Main Hotkeys</th>
@@ -183,7 +183,7 @@ Run `fc-cache -fv fonts` and then install following fonts:
             <td>super + enter</td>
       </tr>
       <tr>
-            <td>Rofi Menu</td>
+            <td>Rofi menu</td>
             <td>super + d</td>
       </tr>
       <tr>
@@ -191,26 +191,26 @@ Run `fc-cache -fv fonts` and then install following fonts:
             <td>print</td>
       </tr>
       <tr>
-            <td>Lock Screen</td>
+            <td>Lock screen</td>
             <td>super + shift + q</td>
       </tr>
       <tr>
-            <td>Color Picker</td>
+            <td>Color picker</td>
             <td>super + shift + x</td>
       </tr>
       <tr>
-            <td>Random Wallpaper</td>
+            <td>Random wallpaper</td>
             <td>super + alt + w</td>
       </tr>
       <tr>
             <th colspan="2"><b>BSPWM</b></th>
       </tr>
       <tr>
-            <td>Close a Node</td>
+            <td>Close a node</td>
             <td>super + w</td>
       </tr>
       <tr>
-            <td>Kill a Node</td>
+            <td>Kill a node</td>
             <td>super + shift + w</td>
       </tr>
       <tr>
@@ -222,15 +222,15 @@ Run `fc-cache -fv fonts` and then install following fonts:
             <td>super + esc</td>
       </tr>
       <tr>
-            <td>Switch Desktops</td>
+            <td>Switch desktops</td>
             <td>super + 1 ... 9</td>
       </tr>
       <tr>
-            <td>Move a Node to Desktop</td>
+            <td>Move a node to desktop</td>
             <td>super + shift + 1 ... 9</td>
       </tr>
       <tr>
-            <td>Swith a Node to Floating Mode</td>
+            <td>Swith a node to floating Mode</td>
             <td>super + s</td>
       </tr>
       <tr>
@@ -269,7 +269,7 @@ Run `fc-cache -fv fonts` and then install following fonts:
             <td>super + shift + p</td>
       </tr>
       <tr>
-            <th colspan="2"><b>Open .config Files</b></th>
+            <th colspan="2"><b>Open .config files</b></th>
       </tr>
       <tr>
             <td>BSPWMRC</td>
@@ -286,6 +286,24 @@ Run `fc-cache -fv fonts` and then install following fonts:
       <tr>
             <td>Picom</td>
             <td>super + shift + f4</td>
+      </tr>
+            <th colspan="2"><b>Move / resize nodes</b></th>
+      </tr>
+      <tr>
+            <td>Expand a window</td>
+            <td>super + alt + {h,j,k,l}</td>
+      </tr>
+      <tr>
+            <td>Contract a window</td>
+            <td>super + alt + shift + {h,j,k,l}</td>
+      </tr>
+      <tr>
+            <td>Switch nodes positions</td>
+            <td>super + shift + {h,j,k,l}</td>
+      </tr>
+      <tr>
+            <td>Move a focused floating window</td>
+            <td>super + {Left, Down, Up, Right}</td>
       </tr>
 </table>
 
