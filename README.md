@@ -51,6 +51,14 @@
       
 </table>
 
+<h2 id="installation">Installation</h2>
+
+- Clone this repo to your local machine: `git clone https://github.com/alexeymasasin/dotfiles.git`
+- Copy the contents from [this folder](https://github.com/alexeymasasin/dotfiles/tree/main/bspwm) to your `~/` path and reaplace everything
+- Make sure that all scripts are executable (if not: `sudo chmod +x <script-file>`)
+- Install required <a href="#packages">packages</a> and <a href="#fonts">fonts</a>
+- Enable required services
+
 <h2 id="fonts">Fonts</h2>
 
 Run `fc-cache -fv fonts` and then install following fonts:
@@ -61,95 +69,756 @@ Run `fc-cache -fv fonts` and then install following fonts:
 
 <h2 id="packages">Packages</h2>
 <details>
-  <summary><b>pacman -Qe</b></summary>
+  <summary><b>pacman -Q</b></summary>
   
   ```
-      alacritty 0.13.2-3
-      amd-ucode 20240909.552ed9b8-1
-      base 3-2
-      base-devel 1-2
-      blueberry 1.4.8-2
-      bluez-utils 5.78-1
-      bspwm 0.9.10-4
-      deskreen 2.0.4-5
-      discord 0.0.71-1
-      dmenu 5.3-3
-      dunst 1.11.0-1
-      efibootmgr 18-3
-      feh 3.10.3-1
-      firefox 131.0.2-1
-      flameshot 12.1.0-5
-      git 2.47.0-1
-      google-chrome 129.0.6668.100-1
-      gpick 0.3-2
-      grub 2:2.12-3
-      gst-plugin-pipewire 1:1.2.5-1
-      gvfs 1.56.0-1
-      htop 3.3.0-3
-      i2c-tools 4.3-6
-      i3lock 2.15-2
-      intel-media-driver 24.3.3-1
-      iwd 2.22-1
-      libpulse 17.0-3
-      libva-intel-driver 2.4.1-3
-      libva-mesa-driver 1:24.2.4-1
-      linux 6.11.2.arch1-1
-      linux-firmware 20240909.552ed9b8-1
-      lsof 4.99.3-2
-      lxappearance 0.6.3-5
-      ly 1.0.2-1
-      nano 8.2-1
-      neofetch 7.1.0-2
-      neovim 0.10.2-2
-      network-manager-applet 1.36.0-1
-      networkmanager 1.50.0-1
-      nodejs-lts-iron 20.18.0-1
-      noto-fonts-cjk 20230817-2
-      npm 10.9.0-1
-      ntfs-3g 2022.10.3-1
-      openrgb 0.9-4
-      os-prober 1.81-2
-      pavucontrol 1:6.1-1
-      picom 12.2-1
-      pipewire 1:1.2.5-1
-      pipewire-alsa 1:1.2.5-1
-      pipewire-jack 1:1.2.5-1
-      polybar 3.7.2-2
-      pulseaudio 17.0-3
-      pulseaudio-bluetooth 17.0-3
-      ranger 1.9.3-11
-      ripgrep 14.1.1-1
-      rofi 1.7.5-3
-      rxvt-unicode 9.31-6
-      smartmontools 7.4-2
-      sxhkd 0.6.2-4
-      telegram-desktop 5.6.1-1
-      thunar-volman 4.18.0-3
-      ttf-liberation 2.1.5-2
-      unzip 6.0-21
-      vi 1:070224-6
-      vim 9.1.0764-1
-      visual-studio-code-bin 1.94.0-1
-      vlc 3.0.21-6
-      vulkan-intel 1:24.2.4-1
-      vulkan-radeon 1:24.2.4-1
-      wget 1.24.5-3
-      wireless_tools 30.pre9-4
-      wireplumber 0.5.6-1
-      xclip 0.13-5
-      xcolor 0.5.1-4
-      xdg-utils 1.2.1-1
-      xdo 0.5.7-3
-      xf86-video-amdgpu 23.0.0-2
-      xf86-video-ati 1:22.0.0-2
-      xf86-video-nouveau 1.0.17-3
-      xf86-video-vmware 13.4.0-3
-      xorg-server 21.1.13-1
-      xorg-xinit 1.4.2-2
-      xorg-xrandr 1.5.2-2
-      yarn 1.22.22-2
-      zram-generator 1.1.2-1
+a52dec
+abseil-cpp
+acl
+ada
+adobe-source-code-pro-fonts
+adwaita-cursors
+adwaita-icon-theme
+adwaita-icon-theme-legacy
+alacritty
+alsa-card-profiles
+alsa-lib
+alsa-topology-conf
+alsa-ucm-conf
+alsa-utils
+amd-ucode
+aom
+archlinux-keyring
+argon2
+aribb24
+at-spi2-core
+attr
+audit
+autoconf
+automake
+avahi
+base
+base-devel
+bash
+binutils
+bison
+blueberry
+bluetooth-autoconnect
+bluez
+bluez-libs
+bluez-tools
+bluez-utils
+brotli
+bspwm
+bzip2
+c-ares
+ca-certificates
+ca-certificates-mozilla
+ca-certificates-utils
+cairo
+cairomm-1.16
+cantarell-fonts
+coreutils
+cryptsetup
+curl
+dav1d
+db5.3
+dbus
+dbus-broker
+dbus-broker-units
+dbus-units
+dconf
+debugedit
+default-cursors
+deskreen
+desktop-file-utils
+device-mapper
+diffutils
+discord
+dmenu
+double-conversion
+duktape
+dunst
+e2fsprogs
+efibootmgr
+efivar
+ell
+exo
+expat
+faad2
+fakeroot
+feh
+ffmpeg
+ffmpeg4.4
+fftw
+file
+filesystem
+findutils
+firefox
+flac
+flameshot
+flex
+fontconfig
+freeglut
+freetype2
+fribidi
+fuse-common
+fuse2
+fuse3
+gawk
+gc
+gcc
+gcc-libs
+gcr-4
+gdbm
+gdk-pixbuf2
+gettext
+giflib
+girara
+git
+glib-networking
+glib2
+glibc
+glibmm-2.68
+glslang
+glu
+gmp
+gnome-bluetooth
+gnu-free-fonts
+gnupg
+gnutls
+gobject-introspection-runtime
+google-chrome
+gperftools
+gpgme
+gpick
+gpm
+graphene
+graphite
+grep
+groff
+grub
+gsettings-desktop-schemas
+gsettings-system-schemas
+gsm
+gssdp
+gst-plugin-pipewire
+gst-plugins-bad-libs
+gst-plugins-base-libs
+gstreamer
+gtest
+gtk-update-icon-cache
+gtk2
+gtk3
+gtk4
+gtkmm-4.0
+guile
+gupnp
+gupnp-igd
+gvfs
+gzip
+harfbuzz
+hicolor-icon-theme
+hidapi
+highway
+htop
+hunspell
+hwdata
+i2c-tools
+i3lock
+iana-etc
+icu
+imath
+imlib2
+intel-gmmlib
+intel-media-driver
+iproute2
+iptables
+iputils
+iso-codes
+iwd
+jansson
+jasper
+jbigkit
+json-c
+json-glib
+jsoncpp
+kbd
+kcoreaddons
+keyutils
+kguiaddons5
+kmod
+krb5
+l-smash
+lame
+lcms2
+libappindicator-gtk3
+libarchive
+libass
+libassuan
+libasyncns
+libatasmart
+libavc1394
+libb2
+libblockdev
+libblockdev-crypto
+libblockdev-fs
+libblockdev-loop
+libblockdev-mdraid
+libblockdev-nvme
+libblockdev-part
+libblockdev-swap
+libbluray
+libbpf
+libbs2b
+libbytesize
+libcanberra
+libcap
+libcap-ng
+libcdio
+libcdio-paranoia
+libcloudproviders
+libcolord
+libconfig
+libcups
+libdaemon
+libdatrie
+libdbusmenu-glib
+libdbusmenu-gtk3
+libdca
+libdeflate
+libdispatch
+libdovi
+libdrm
+libdvbpsi
+libdvdnav
+libdvdread
+libebml
+libedit
+libelf
+libepoxy
+libev
+libevdev
+libevent
+libexif
+libfdk-aac
+libffi
+libfontenc
+libfreeaptx
+libgcrypt
+libgirepository
+libglvnd
+libgnomekbd
+libgpg-error
+libgtop
+libgudev
+libice
+libidn
+libidn2
+libiec61883
+libinput
+libisl
+libjpeg-turbo
+libjxl
+libksba
+liblc3
+libldac
+libldap
+libluv
+libmad
+libmatroska
+libmfx
+libmm-glib
+libmng
+libmnl
+libmodplug
+libmpc
+libmpcdec
+libmpdclient
+libmpeg2
+libmysofa
+libndp
+libnetfilter_conntrack
+libnewt
+libnfnetlink
+libnftnl
+libnghttp2
+libnghttp3
+libnice
+libnl
+libnm
+libnma
+libnma-common
+libnotify
+libnsl
+libnvme
+libogg
+libomxil-bellagio
+libopenmpt
+libp11-kit
+libpcap
+libpciaccess
+libpgm
+libpipewire
+libplacebo
+libpng
+libproxy
+libpsl
+libptytty
+libpulse
+libraw1394
+librsvg
+libsamplerate
+libsasl
+libseccomp
+libsecret
+libsigc++-3.0
+libsm
+libsndfile
+libsodium
+libsoup3
+libsoxr
+libssh
+libssh2
+libstemmer
+libsynctex
+libsysprof-capture
+libtar
+libtasn1
+libteam
+libthai
+libtheora
+libtiff
+libtirpc
+libtool
+libunibreak
+libunistring
+libunwind
+libupnp
+libusb
+libutf8proc
+libuv
+libva
+libva-intel-driver
+libva-mesa-driver
+libvdpau
+libverto
+libvlc
+libvorbis
+libvpl
+libvpx
+libvterm
+libwacom
+libwebp
+libwireplumber
+libx11
+libxau
+libxcb
+libxcomposite
+libxcrypt
+libxcursor
+libxcvt
+libxdamage
+libxdg-basedir
+libxdmcp
+libxext
+libxfce4ui
+libxfce4util
+libxfixes
+libxfont2
+libxft
+libxi
+libxinerama
+libxkbcommon
+libxkbcommon-x11
+libxkbfile
+libxklavier
+libxml2
+libxmu
+libxpm
+libxrandr
+libxrender
+libxshmfence
+libxss
+libxt
+libxtst
+libxv
+libxxf86vm
+licenses
+lilv
+linux
+linux-api-headers
+linux-firmware
+linux-firmware-whence
+llvm-libs
+lm_sensors
+lmdb
+lsof
+lua
+lua51-lpeg
+luajit
+lv2
+lxappearance
+ly
+lz4
+lzo
+m4
+mailcap
+make
+mbedtls2
+md4c
+mdadm
+mesa
+minizip
+mkinitcpio
+mkinitcpio-busybox
+mobile-broadband-provider-info
+mpdecimal
+mpfr
+mpg123
+msgpack-c
+mtdev
+nano
+ncurses
+neofetch
+neovim
+nettle
+network-manager-applet
+networkmanager
+nm-connection-editor
+node-gyp
+nodejs-lts-iron
+nodejs-nopt
+noto-fonts-cjk
+noto-fonts-emoji
+npm
+npth
+nspr
+nss
+ntfs-3g
+ocl-icd
+openal
+opencore-amr
+openexr
+openh264
+openjpeg2
+openrgb
+openssh
+openssl
+opus
+orc
+os-prober
+p11-kit
+pacman
+pacman-mirrorlist
+pam
+pambase
+pango
+pangomm-2.48
+parted
+patch
+pavucontrol
+pciutils
+pcre
+pcre2
+pcsclite
+perl
+perl-error
+perl-mailtools
+perl-timedate
+picom
+pinentry
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pixman
+pkgconf
+polkit
+polybar
+popt
+portaudio
+procps-ng
+protobuf
+psmisc
+pulseaudio
+pulseaudio-bluetooth
+python
+python-dbus
+python-gobject
+python-prctl
+python-setproctitle
+qt5-base
+qt5-declarative
+qt5-svg
+qt5-translations
+qt5-wayland
+qt5-x11extras
+qt6-base
+qt6-declarative
+qt6-imageformats
+qt6-svg
+qt6-translations
+qt6-wayland
+ranger
+rav1e
+readline
+ripgrep
+rnnoise
+rofi
+rtkit
+rubberband
+rxvt-unicode
+rxvt-unicode-terminfo
+sbc
+sdl2
+sed
+semver
+serd
+shaderc
+shadow
+shared-mime-info
+slang
+smartmontools
+snappy
+sord
+sound-theme-freedesktop
+speex
+speexdsp
+spirv-tools
+sqlite
+sratom
+srt
+startup-notification
+sudo
+svt-av1
+sxhkd
+systemd
+systemd-libs
+systemd-sysvcompat
+taglib
+tar
+tdb
+telegram-desktop
+texinfo
+thunar
+thunar-volman
+tinysparql
+tpm2-tss
+tree-sitter
+tree-sitter-c
+tree-sitter-lua
+tree-sitter-markdown
+tree-sitter-query
+tree-sitter-vim
+tree-sitter-vimdoc
+tslib
+ttf-liberation
+tzdata
+udisks2
+unibilium
+unzip
+util-linux
+util-linux-libs
+v4l-utils
+vapoursynth
+vi
+vid.stab
+vim
+vim-runtime
+visual-studio-code-bin
+vlc
+vmaf
+volume_key
+vulkan-headers
+vulkan-icd-loader
+vulkan-intel
+vulkan-radeon
+wayland
+webrtc-audio-processing-1
+wget
+which
+wireless_tools
+wireplumber
+wpa_supplicant
+x264
+x265
+xapp
+xcb-proto
+xcb-util
+xcb-util-cursor
+xcb-util-image
+xcb-util-keysyms
+xcb-util-renderutil
+xcb-util-wm
+xcb-util-xrm
+xclip
+xcolor
+xdg-utils
+xdo
+xf86-input-libinput
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
+xf86-video-vmware
+xfconf
+xkeyboard-config
+xorg-fonts-encodings
+xorg-server
+xorg-server-common
+xorg-setxkbmap
+xorg-xauth
+xorg-xinit
+xorg-xkbcomp
+xorg-xmodmap
+xorg-xprop
+xorg-xrandr
+xorg-xrdb
+xorg-xset
+xorgproto
+xvidcore
+xxhash
+xz
+yarn
+zathura
+zeromq
+zimg
+zix
+zlib
+zram-generator
+zstd
   ```
+</details>
+<details>
+  <summary><b>pacman -Qe</b></summary>
+      
+```
+alacritty
+alsa-utils
+amd-ucode
+base
+base-devel
+blueberry
+bluetooth-autoconnect
+bluez-utils
+bspwm
+deskreen
+discord
+dmenu
+dunst
+efibootmgr
+feh
+firefox
+flameshot
+git
+google-chrome
+gpick
+grub
+gst-plugin-pipewire
+gvfs
+htop
+i2c-tools
+i3lock
+intel-media-driver
+iwd
+libpulse
+libva-intel-driver
+libva-mesa-driver
+linux
+linux-firmware
+lsof
+lxappearance
+ly
+nano
+neofetch
+neovim
+network-manager-applet
+networkmanager
+nodejs-lts-iron
+noto-fonts-cjk
+noto-fonts-emoji
+npm
+ntfs-3g
+openrgb
+os-prober
+pavucontrol
+picom
+pipewire
+pipewire-alsa
+pipewire-jack
+polybar
+pulseaudio
+pulseaudio-bluetooth
+python-prctl
+ranger
+ripgrep
+rofi
+rxvt-unicode
+smartmontools
+sxhkd
+telegram-desktop
+thunar-volman
+ttf-liberation
+unzip
+vi
+vim
+visual-studio-code-bin
+vlc
+vulkan-intel
+vulkan-radeon
+wget
+wireless_tools
+wireplumber
+xclip
+xcolor
+xdg-utils
+xdo
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
+xf86-video-vmware
+xorg-server
+xorg-xinit
+xorg-xrandr
+yarn
+zathura
+zram-generator
+```
+</details>
+
+<h2 id="services">Services</h2>
+<details>
+      <summary>S</summary>
+      
+      bluetooth-autoconnect.service                enabled         disabled
+      bluetooth.service                            enabled         disabled
+      getty@.service                               enabled         enabled
+      ly.service                                   enabled         disabled
+      NetworkManager-dispatcher.service            enabled         disabled
+      NetworkManager-wait-online.service           enabled         disabled
+      NetworkManager.service                       enabled         disabled
+      systemd-boot-update.service                  disabled        enabled
+      systemd-confext.service                      disabled        enabled
+      systemd-fsck-root.service                    enabled-runtime disabled
+      systemd-homed-activate.service               disabled        enabled
+      systemd-homed.service                        disabled        enabled
+      systemd-network-generator.service            disabled        enabled
+      systemd-networkd-wait-online.service         disabled        enabled
+      systemd-networkd.service                     disabled        enabled
+      systemd-pstore.service                       disabled        enabled
+      systemd-remount-fs.service                   enabled-runtime disabled
+      systemd-resolved.service                     disabled        enabled
+      systemd-sysext.service                       disabled        enabled
+      systemd-timesyncd.service                    enabled         enabled
+      systemd-journald-audit.socket                disabled        enabled
+      systemd-mountfsd.socket                      disabled        enabled
+      systemd-nsresourced.socket                   disabled        enabled
+      systemd-userdbd.socket                       enabled         enabled
+      machines.target                              disabled        enabled
+      reboot.target                                disabled        enabled
+      remote-cryptsetup.target                     disabled        enabled
+      remote-fs.target                             enabled         enabled
+      fstrim.timer                                 enabled         disabled
 </details>
 
 <h2 id="gallery">Gallery</h2>
@@ -163,7 +832,7 @@ Run `fc-cache -fv fonts` and then install following fonts:
 <table align="center">
    <tr>
       <th align="center">
-         <sup>:warning: WARNING :warning:</sup>
+         <sup>WARNING</sup>
       </th>
    </tr>
    <tr>
@@ -304,8 +973,16 @@ Run `fc-cache -fv fonts` and then install following fonts:
             <td>super + shift + {h,j,k,l}</td>
       </tr>
       <tr>
-            <td>Move a focused floating window</td>
+            <td>Move a focused floating window with keyboard</td>
             <td>super + {Left, Down, Up, Right}</td>
+      </tr>
+      <tr>
+            <td>Move a focused floating window with mouse</td>
+            <td>super + left-click</td>
+      </tr>
+      <tr>
+            <td>Resize a focused floating window with mouse</td>
+            <td>super + right-click</td>
       </tr>
 </table>
 
