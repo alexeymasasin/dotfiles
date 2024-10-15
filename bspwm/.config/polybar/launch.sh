@@ -3,11 +3,11 @@
 # Terminate already running bar instances
 killall -q polybar
 
-polybar example &
+polybar main &
 
 if [[ $(xrandr -q | grep 'DisplayPort-0 connected') ]]; then
-    polybar external &
+    polybar main-external &
     xrandr --addmode DisplayPort-0 1366x768
-    xrandr --output DisplayPort-0 --mode 1366x768 --below HDMI-A-0 &
+    xrandr --output DisplayPort-0 --mode 1366x768 --left-of HDMI-A-0 &
 fi
 
