@@ -54,7 +54,7 @@
 <h2 id="installation">Installation</h2>
 
 - Clone this repo to your local machine: `git clone https://github.com/alexeymasasin/dotfiles.git`
-- Copy the contents from [this folder](https://github.com/alexeymasasin/dotfiles/tree/main/bspwm) to your `~/` path and reaplace everything
+- Copy the contents from [this folder](https://github.com/alexeymasasin/dotfiles/tree/main/bspwm) to your `~/` path and replace everything
 - Make sure that all scripts are executable (if not: `sudo chmod +x <script-file>`)
 - Install required <a href="#packages">packages</a> and <a href="#fonts">fonts</a>
 - Enable required <a href="#services">services</a>
@@ -87,38 +87,17 @@ Run `fc-cache -fv fonts` and then install following fonts:
 To enable a service run `systemctl enable <service-name>`
       
 <details>
-      <summary><b>output of "systemctl list-unit-files | grep enabled"</b></summary>
+      <summary><b>output of "systemctl list-unit-files --type=service --state=enabled"</b></summary>
       
-      bluetooth-autoconnect.service                enabled         disabled
-      bluetooth.service                            enabled         disabled
-      getty@.service                               enabled         enabled
-      ly.service                                   enabled         disabled
-      NetworkManager-dispatcher.service            enabled         disabled
-      NetworkManager-wait-online.service           enabled         disabled
-      NetworkManager.service                       enabled         disabled
-      openrgb.service                              enabled         disabled
-      systemd-boot-update.service                  disabled        enabled
-      systemd-confext.service                      disabled        enabled
-      systemd-fsck-root.service                    enabled-runtime disabled
-      systemd-homed-activate.service               disabled        enabled
-      systemd-homed.service                        disabled        enabled
-      systemd-network-generator.service            disabled        enabled
-      systemd-networkd-wait-online.service         disabled        enabled
-      systemd-networkd.service                     disabled        enabled
-      systemd-pstore.service                       disabled        enabled
-      systemd-remount-fs.service                   enabled-runtime disabled
-      systemd-resolved.service                     disabled        enabled
-      systemd-sysext.service                       disabled        enabled
-      systemd-timesyncd.service                    enabled         enabled
-      systemd-journald-audit.socket                disabled        enabled
-      systemd-mountfsd.socket                      disabled        enabled
-      systemd-nsresourced.socket                   disabled        enabled
-      systemd-userdbd.socket                       enabled         enabled
-      machines.target                              disabled        enabled
-      reboot.target                                disabled        enabled
-      remote-cryptsetup.target                     disabled        enabled
-      remote-fs.target                             enabled         enabled
-      fstrim.timer                                 enabled         disabled
+      bluetooth-autoconnect.service      enabled enabled
+      bluetooth.service                  enabled enabled
+      getty@.service                     enabled enabled
+      ly.service                         enabled enabled
+      NetworkManager-dispatcher.service  enabled enabled
+      NetworkManager-wait-online.service enabled enabled
+      NetworkManager.service             enabled enabled
+      openrgb.service                    enabled enabled
+      systemd-timesyncd.service          enabled enabled
 </details>
 
 <h2 id="packages">Packages</h2>
