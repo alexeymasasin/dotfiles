@@ -30,7 +30,11 @@
       </tr>
       <tr>
             <td>Terminal</td>
-            <td><a href="https://alacritty.org/">Alacritty</a></td>
+            <td><a target="_blank" href="https://alacritty.org/">Alacritty</a></td>
+      </tr>
+      <tr>
+            <td>Shell</td>
+            <td><a target="_blank" href="https://ohmyz.sh/">Zsh</a></td>
       </tr>
       <tr>
             <td>Notifiy</td>
@@ -43,10 +47,6 @@
       <tr>
             <td>Icons</td>
             <td><a target="_blank" href="https://www.gnome-look.org/p/2200291">Colloid Pastel</a></td>
-      </tr>
-      <tr>
-            <td>Cursor</td>
-            <td><a target="_blank" href="https://www.gnome-look.org/p/1481466">XCursor Pro Dark</a></td>
       </tr>
       
 </table>
