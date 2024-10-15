@@ -92,10 +92,10 @@ To enable a service run `systemctl enable <service-name>`
       bluetooth-autoconnect.service      enabled enabled
       bluetooth.service                  enabled enabled
       getty@.service                     enabled enabled
-      ly.service                         enabled enabled
-      NetworkManager-dispatcher.service  enabled enabled
-      NetworkManager-wait-online.service enabled enabled
-      NetworkManager.service             enabled enabled
+      ly.service                         enabled disabled
+      NetworkManager-dispatcher.service  enabled disabled
+      NetworkManager-wait-online.service enabled disabled
+      NetworkManager.service             enabled disabled
       openrgb.service                    enabled enabled
       systemd-timesyncd.service          enabled enabled
 </details>
