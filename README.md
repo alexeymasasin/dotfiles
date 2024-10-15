@@ -8,7 +8,7 @@
                   <img align="center" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png"/>
                   <br/><br/>
                   <p align="center">
-                        <a href="#fonts">Fonts</a> / <a href="#packages">Packages</a> / <a href="#gallery">Gallery</a> / <a href="#hotkeys">Hotkeys</a> / <a href="#credit">Credit</a> 
+                        <a href="#installation">Installation</a> / <a href="#packages">Packages</a> / <a href="#services">Services</a> / <a href="#fonts">Fonts</a>  / <a href="#gallery">Gallery</a> / <a href="#hotkeys">Hotkeys</a> / <a href="#credit">Credit</a> 
                   </p>
             </td>
       </tr>
@@ -57,7 +57,22 @@
 - Copy the contents from [this folder](https://github.com/alexeymasasin/dotfiles/tree/main/bspwm) to your `~/` path and reaplace everything
 - Make sure that all scripts are executable (if not: `sudo chmod +x <script-file>`)
 - Install required <a href="#packages">packages</a> and <a href="#fonts">fonts</a>
-- Enable required services
+- Enable required <a href="#services">services</a>
+
+<table align="center">
+   <tr>
+      <th align="center">
+         WARNING
+      </th>
+   </tr>
+   <tr>
+      <td align="center">
+        THIS CONFIGURATION IS DESIGNED FOR 1920X1080 MONITORS,
+        SOME FUNCTIONALITY OF THE SHELL MAY NOT WORK AS IT SHOULD.
+        IN THIS CASE YOU NEED TO MAKE ADJUSTMENTS MANUALLY.
+        IF YOU FIND ERRORS IN THE SHELL, PLEASE REPORT THE PROBLEM.
+   </tr>
+</table>
 
 <h2 id="fonts">Fonts</h2>
 
@@ -67,9 +82,51 @@ Run `fc-cache -fv fonts` and then install following fonts:
 - https://fonts.google.com/noto/specimen/Noto+Color+Emoji <br>
       Arch package: `noto-fonts-emoji`
 
-<h2 id="packages">Packages</h2>
+<h2 id="services">Services</h2>
+
+To enable a service run `systemctl enable <service-name>`
+      
 <details>
-  <summary><b>pacman -Q</b></summary>
+      <summary><b>output of "systemctl list-unit-files | grep enabled"</b></summary>
+      
+      bluetooth-autoconnect.service                enabled         disabled
+      bluetooth.service                            enabled         disabled
+      getty@.service                               enabled         enabled
+      ly.service                                   enabled         disabled
+      NetworkManager-dispatcher.service            enabled         disabled
+      NetworkManager-wait-online.service           enabled         disabled
+      NetworkManager.service                       enabled         disabled
+      openrgb.service                              enabled         disabled
+      systemd-boot-update.service                  disabled        enabled
+      systemd-confext.service                      disabled        enabled
+      systemd-fsck-root.service                    enabled-runtime disabled
+      systemd-homed-activate.service               disabled        enabled
+      systemd-homed.service                        disabled        enabled
+      systemd-network-generator.service            disabled        enabled
+      systemd-networkd-wait-online.service         disabled        enabled
+      systemd-networkd.service                     disabled        enabled
+      systemd-pstore.service                       disabled        enabled
+      systemd-remount-fs.service                   enabled-runtime disabled
+      systemd-resolved.service                     disabled        enabled
+      systemd-sysext.service                       disabled        enabled
+      systemd-timesyncd.service                    enabled         enabled
+      systemd-journald-audit.socket                disabled        enabled
+      systemd-mountfsd.socket                      disabled        enabled
+      systemd-nsresourced.socket                   disabled        enabled
+      systemd-userdbd.socket                       enabled         enabled
+      machines.target                              disabled        enabled
+      reboot.target                                disabled        enabled
+      remote-cryptsetup.target                     disabled        enabled
+      remote-fs.target                             enabled         enabled
+      fstrim.timer                                 enabled         disabled
+</details>
+
+<h2 id="packages">Packages</h2>
+
+To install a package run `sudo pacman -S <package-name>` or `sudo pacman -Syu <package-name>`
+
+<details>  
+  <summary><b>pacman -Q</b></summary>      
   
   ```
 a52dec
@@ -786,63 +843,12 @@ zram-generator
 ```
 </details>
 
-<h2 id="services">Services</h2>
-<details>
-      <summary>S</summary>
-      
-      bluetooth-autoconnect.service                enabled         disabled
-      bluetooth.service                            enabled         disabled
-      getty@.service                               enabled         enabled
-      ly.service                                   enabled         disabled
-      NetworkManager-dispatcher.service            enabled         disabled
-      NetworkManager-wait-online.service           enabled         disabled
-      NetworkManager.service                       enabled         disabled
-      systemd-boot-update.service                  disabled        enabled
-      systemd-confext.service                      disabled        enabled
-      systemd-fsck-root.service                    enabled-runtime disabled
-      systemd-homed-activate.service               disabled        enabled
-      systemd-homed.service                        disabled        enabled
-      systemd-network-generator.service            disabled        enabled
-      systemd-networkd-wait-online.service         disabled        enabled
-      systemd-networkd.service                     disabled        enabled
-      systemd-pstore.service                       disabled        enabled
-      systemd-remount-fs.service                   enabled-runtime disabled
-      systemd-resolved.service                     disabled        enabled
-      systemd-sysext.service                       disabled        enabled
-      systemd-timesyncd.service                    enabled         enabled
-      systemd-journald-audit.socket                disabled        enabled
-      systemd-mountfsd.socket                      disabled        enabled
-      systemd-nsresourced.socket                   disabled        enabled
-      systemd-userdbd.socket                       enabled         enabled
-      machines.target                              disabled        enabled
-      reboot.target                                disabled        enabled
-      remote-cryptsetup.target                     disabled        enabled
-      remote-fs.target                             enabled         enabled
-      fstrim.timer                                 enabled         disabled
-</details>
-
 <h2 id="gallery">Gallery</h2>
 <p align="center">
 <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/bspwm.png" />
     &nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.png" />
 </p>
-
-
-<table align="center">
-   <tr>
-      <th align="center">
-         <sup>WARNING</sup>
-      </th>
-   </tr>
-   <tr>
-      <td align="center">
-        THIS CONFIGURATION IS DESIGNED FOR 1920X1080 MONITORS,
-        SOME FUNCTIONALITY OF THE SHELL MAY NOT WORK AS IT SHOULD.
-        IN THIS CASE YOU NEED TO MAKE ADJUSTMENTS MANUALLY.
-        IF YOU FIND ERRORS IN THE SHELL, PLEASE REPORT THE PROBLEM.
-   </tr>
-   </table>
 
 <h2 id="hotkeys">HotKeys</h2>
 <table>
