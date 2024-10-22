@@ -1,0 +1,11 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241017_192022
+====================================================================================================
+
+0     |Info:    Found file: Emerald.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Emerald
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
