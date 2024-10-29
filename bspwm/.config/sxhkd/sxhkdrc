@@ -3,8 +3,9 @@
 #
 
 # launch applications
-super + shift + {f,n,m,p,t,c,v,i,x,q}
+super + shift + {f,b,n,m,p,t,c,v,i,x,q}
 	{firefox, \
+	thunar, \
   	sudo thunar, \
 	alacritty -e ranger, \
 	pavucontrol, \
@@ -39,8 +40,8 @@ super + Return
 	alacritty
 
 # program launcher
-super + @space
-	dmenu_run
+# super + @space
+#	dmenu_run
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -1,4 +1,4 @@
-import = [
+general.import = [
     "~/.config/alacritty/RCW-120-V1.toml"
 ]
 

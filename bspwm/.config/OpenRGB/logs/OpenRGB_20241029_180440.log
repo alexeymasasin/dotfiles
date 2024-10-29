@@ -1,0 +1,12 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241029_180440
+====================================================================================================
+
+1     |Info:    Found file: Emerald.orp attempting to validate header
+1     |Info:    Valid v4 profile found for Emerald
+654   |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x71
+654   |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-7, address 0x73
+654   |Info:    Profile loading: Succeeded for Razer Viper Ultimate (Wireless) @ HID: /dev/hidraw1
+654   |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw9
+654   |Info:    Profile loading: Succeeded for Razer Huntsman V2 TKL @ HID: /dev/hidraw5
