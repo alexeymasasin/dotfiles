@@ -2915,7 +2915,7 @@ qt-privacy-ask=0
 #equalizer-vlcfreqs=1
 
 # Global gain (float)
-#equalizer-preamp=12.000000
+equalizer-preamp=13.100000
 
 [audiobargraph_a] # Audio part of the BarGraph function
 
@@ -3583,7 +3583,7 @@ qt-privacy-ask=0
 #role=video
 
 # Audio filters (string)
-#audio-filter=
+audio-filter=equalizer
 
 # Audio visualizations (string)
 #audio-visual=none
