@@ -18,10 +18,10 @@ super + shift + {f,b,n,m,p,t,c,v,i,x,q}
 
 # open config files
 super + shift + {F1,F2,F3,F4} 
-	{alacritty -e sudo nvim ~/.config/bspwm/bspwmrc, \
-	alacritty -e sudo nvim ~/.config/sxhkd/sxhkdrc, \
-	alacritty -e sudo nvim ~/.config/polybar/config.ini, \
-	alacritty -e sudo nvim ~/.config/bspwm/picom_configurations/1.conf}
+	{alacritty -e nvim ~/.config/bspwm/bspwmrc, \
+	alacritty -e nvim ~/.config/sxhkd/sxhkdrc, \
+	alacritty -e nvim ~/.config/polybar/config.ini, \
+	alacritty -e nvim ~/.config/bspwm/picom_configurations/1.conf}
 
 # set random wallpaper
 super + alt + w

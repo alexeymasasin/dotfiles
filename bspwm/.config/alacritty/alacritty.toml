@@ -2,9 +2,12 @@ general.import = [
     "~/.config/alacritty/RCW-120-V1.toml"
 ]
 
+[env]
+TERM = "xterm-256color"
+
 [font]
 builtin_box_drawing = true
-size = 14.0
+size = 13.0
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
@@ -18,6 +21,8 @@ style = "Bold"
 dynamic_title = true
 opacity = 1
 title = "Alacritty"
+padding.x = 4
+padding.y = 4
 
 [window.class]
 general = "Alacritty"
