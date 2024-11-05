@@ -7,11 +7,11 @@ return {
 local colors = {
   blue   = '#53ffb1',
   cyan   = '#f7cb60',
-  black  = '#0f0e15',
+  black  = '#0F0E15',
   white  = '#f5faff',
   red    = '#c82540',
   violet = '#915fff',
-  grey   = '#211e2f',
+  grey   = '#0f0e15',
 }
 
         local rcw_120 = {
