@@ -9,9 +9,9 @@ return {
                 offsets = {
                     {
                         filetype = "neo-tree",
-                        text = "File Explorer",
+                        text = "[~ archlinux]",
                         separator = true,
-                        padding = 1,
+                        padding = 0,
                     },
                 },
                 diagnostics = "nvim_lsp",

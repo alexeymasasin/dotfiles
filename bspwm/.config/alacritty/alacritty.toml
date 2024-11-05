@@ -7,11 +7,11 @@ TERM = "xterm-256color"
 
 [font]
 builtin_box_drawing = true
-size = 13.0
+size = 11.0
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
-style = "Regular"
+style = "light"
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
@@ -21,8 +21,8 @@ style = "Bold"
 dynamic_title = true
 opacity = 1
 title = "Alacritty"
-padding.x = 4
-padding.y = 4
+padding.x = 0
+padding.y = 0
 
 [window.class]
 general = "Alacritty"

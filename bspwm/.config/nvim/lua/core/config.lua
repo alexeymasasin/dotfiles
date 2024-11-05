@@ -38,6 +38,12 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.smartindent = true
 
+-- UI
+vim.opt.cmdheight = 0
+
+-- Lines
+vim.opt.wrap = true
+
 -- Fillchars
 vim.opt.fillchars = {
     vert = "│",
@@ -47,7 +53,7 @@ vim.opt.fillchars = {
     msgsep = "‾",
     foldopen = "▾",
     foldsep = "│",
-    foldclose = "▸"
+    foldclose = "▸",
 }
 
 vim.cmd([[highlight clear LineNr]])
