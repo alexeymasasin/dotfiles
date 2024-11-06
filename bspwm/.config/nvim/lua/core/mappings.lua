@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 
 -- NeoTree
-vim.keymap.set("n", "<leader>o", ":Neotree float toggle<CR>", { desc = "Reveal neo-tree (left)" })
+vim.keymap.set("n", "<leader>E", ":Neotree float toggle<CR>", { desc = "Reveal neo-tree (left)" })
 vim.keymap.set("n", "<leader>e", ":Neotree left toggle<CR>", { desc = "Reveal neo-tree (floating)" })
 
 -- Navigation
@@ -9,6 +9,8 @@ vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
 vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
 vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
+
+vim.keymap.set("n", "<leader>o", ":wincmd w<CR>", { desc = "Toggle focus" })
 
 -- Comments
 vim.keymap.set("n", "<leader>/", ":CommentToggle<CR>", { desc = "Comment a single line" })
