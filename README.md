@@ -119,6 +119,7 @@ alacritty alsa-utils amd-ucode base base-devel bc blueberry bluetooth-autoconnec
       <img width="49%" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/ranger.png" />
       <img width="49%" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/vscode.png" />
       <img width="49%" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/floating.png" />
+      <img width="49%" src="https://raw.githubusercontent.com/alexeymasasin/dotfiles/refs/heads/main/images/nvim.png" />
 </p>
 
 <h2 id="hotkeys">HotKeys</h2>
