@@ -1,5 +1,9 @@
 return {
     "folke/which-key.nvim",
+    dependencies = {
+        "nvim-tree/nvim-web-devicons",
+        "echasnovski/mini.icons",
+    },
     event = "VeryLazy",
     opts = {
         -- your configuration comes here
@@ -34,6 +38,7 @@ return {
     --     { "[", desc = "prev" },
     --     -- { "]", desc = "next" },
     -- ),
+
     ---@type wk.Spec
     spec = {},
     -- show a warning when issues were detected with your mappings
@@ -90,12 +95,16 @@ return {
         },
     },
     layout = {
-        width = { min = 20 }, -- min and max width of the columns
-        spacing = 3, -- spacing between columns
+        width = { min = 30 }, -- min and max width of the columns
+        spacing = 2, -- spacing between columns
     },
     keys = {
         scroll_down = "<c-d>", -- binding to scroll down inside the popup
         scroll_up = "<c-u>", -- binding to scroll up inside the popup
+        -- {
+        --     "<leader>e",
+        --     desc = "Reveal neo-tree (left)",
+        -- },
     },
     ---@type (string|wk.Sorter)[]
     --- Mappings are sorted using configured sorters and natural sort of the keys
@@ -141,14 +150,14 @@ return {
         -- set to false to disable all mapping icons,
         -- both those explicitly added in a mapping
         -- and those from rules
-        mappings = true,
+        mappings = false,
         --- See `lua/which-key/icons.lua` for more details
         --- Set to `false` to disable keymap icons from rules
         ---@type wk.IconRule[]|false
         rules = {},
         -- use the highlights from mini.icons
         -- When `false`, it will use `WhichKeyIcon` instead
-        colors = true,
+        colors = false,
         -- used by key format
         keys = {
             Up = " ",

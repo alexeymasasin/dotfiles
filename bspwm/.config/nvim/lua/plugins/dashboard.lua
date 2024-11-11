@@ -34,6 +34,7 @@ return {
 
         require("dashboard").setup({
             theme = "doom",
+            disable_move = true,
             config = {
                 header = default_header(),
                 center = {

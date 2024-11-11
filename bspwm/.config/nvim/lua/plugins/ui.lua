@@ -20,6 +20,7 @@ return {
                     inc_rename = false, -- enables an input dialog for inc-rename.nvim
                     lsp_doc_border = false, -- add a border to hover docs and signature help
                 },
+                max_width = 25,
             })
         end,
     },
@@ -27,8 +28,10 @@ return {
     {
         "rcarriga/nvim-notify",
         opts = {
-            timeout = 5000,
+            stages = "fade_in_slide_out",
+            timeout = 1500,
             background_colour = "#0f0e15",
+            max_width = 100,
         },
     },
 

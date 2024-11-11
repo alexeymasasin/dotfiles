@@ -20,9 +20,17 @@ return {
         capabilities = require("cmp_nvim_lsp").default_capabilities(capabilities)
         -- Setup language servers.
         local lspconfig = require("lspconfig")
-        lspconfig.ts_ls.setup({})
+        lspconfig.ts_ls.setup({
+            capabilities = capabilities,
+            on_attach = on_attach,
+        })
         lspconfig.cssls.setup({
             capabilities = capabilities,
+            on_attach = on_attach,
+        })
+        lspconfig.eslint.setup({
+            capabilities = capabilities,
+            on_attach = on_attach,
         })
         -- Global mappings.
         -- See `:help vim.diagnostic.*` for documentation on any of the below functions
@@ -40,7 +48,13 @@ return {
                 vim.bo[ev.buf].omnifunc = "v:lua.vim.lsp.omnifunc"
 
                 local opts = { buffer = ev.buf }
-                vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
+                vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts, { desc = "Go to file definition" })
+                vim.keymap.set(
+                    "n",
+                    "gt",
+                    "<cmd>tab split | lua vim.lsp.buf.definition()<CR>",
+                    { desc = "Go to file definition (new tab)" }
+                )
                 vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
                 vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
                 vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts)

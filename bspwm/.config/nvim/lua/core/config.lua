@@ -40,6 +40,8 @@ vim.opt.smartindent = true
 
 -- UI
 vim.opt.cmdheight = 0
+vim.cmd([[colorscheme retrobox]])
+vim.cmd([[TransparentEnable]])
 
 -- Lines
 vim.opt.wrap = true

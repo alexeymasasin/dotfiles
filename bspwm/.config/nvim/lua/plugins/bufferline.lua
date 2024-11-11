@@ -6,11 +6,14 @@ return {
         require("bufferline").setup({
             options = {
                 buffer_close_icon = "󰅖",
+                themable = true,
+                numbers = "ordinal",
                 mode = "buffers",
+                tab_size = 20,
                 offsets = {
                     {
                         filetype = "neo-tree",
-                        text = "[~ archlinux]",
+                        text = "[~ neo-tree]",
                         separator = true,
                         padding = 0,
                     },
@@ -22,16 +25,8 @@ return {
                     delay = 100,
                     reveal = { "close" },
                 },
-                indicator = {
-                    icon = "",
-                    style = "underline",
-                    buffer_close_icon = "󰅖",
-                    modified_icon = "● ",
-                    close_icon = " ",
-                    left_trunc_marker = " ",
-                    right_trunc_marker = " ",
-                },
                 -- separator_style = "slant" | "slope" | "thick" | "thin" | { 'any', 'any' },
+                separator_style = "thick",
                 style_preset = {
                     bufferline.style_preset.no_italic,
                     bufferline.style_preset.no_bold,

@@ -4,6 +4,9 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>E", ":Neotree float toggle<CR>", { desc = "Reveal neo-tree (left)" })
 vim.keymap.set("n", "<leader>e", ":Neotree left toggle<CR>", { desc = "Reveal neo-tree (floating)" })
 
+-- UI
+vim.keymap.set("n", "<leader>T", "<cmd>:TransparentToggle<CR>", { desc = "Toggle background transparency" })
+
 -- Navigation
 vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
 vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
@@ -11,6 +14,9 @@ vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 vim.keymap.set("n", "<leader>o", ":wincmd w<CR>", { desc = "Toggle focus" })
+
+vim.keymap.set("n", "<leader>q", ":Bdelete<CR>", { desc = "Close current buffer" })
+vim.keymap.set("n", "<leader>Q", ":qa!<CR>", { desc = "Close neovim without saving" })
 
 -- Comments
 vim.keymap.set("n", "<leader>/", ":CommentToggle<CR>", { desc = "Comment a single line" })
