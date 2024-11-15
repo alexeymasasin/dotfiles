@@ -25,8 +25,7 @@ return {
                     delay = 100,
                     reveal = { "close" },
                 },
-                -- separator_style = "slant" | "slope" | "thick" | "thin" | { 'any', 'any' },
-                separator_style = "thick",
+                -- separator_style = "thick",
                 style_preset = {
                     bufferline.style_preset.no_italic,
                     bufferline.style_preset.no_bold,

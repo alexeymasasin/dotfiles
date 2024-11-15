@@ -1,5 +1,6 @@
 vim.wo.number = true
 vim.wo.relativenumber = true
+vim.opt.guicursor = ""
 
 vim.g.did_load_filetypes = 1
 vim.g.formatoptions = "qrn1"
@@ -10,7 +11,11 @@ vim.opt.scrolloff = 8
 vim.opt.wrap = false
 vim.wo.linebreak = true
 vim.opt.virtualedit = "block"
+
 vim.opt.undofile = true
+vim.opt.swapfile = false
+vim.opt.backup = false
+
 vim.opt.shell = "/bin/zsh"
 
 -- Mouse
@@ -39,12 +44,18 @@ vim.opt.softtabstop = 4
 vim.opt.smartindent = true
 
 -- UI
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+vim.opt.termguicolors = true
+vim.opt.colorcolumn = "80"
+
 vim.opt.cmdheight = 0
-vim.cmd([[colorscheme retrobox]])
-vim.cmd([[TransparentEnable]])
+vim.cmd([[colorscheme moonfly]])
+-- vim.cmd([[colorscheme rose-pine]])
+-- vim.cmd([[TransparentEnable]])
 
 -- Lines
-vim.opt.wrap = true
+vim.opt.wrap = false
 
 -- Fillchars
 vim.opt.fillchars = {

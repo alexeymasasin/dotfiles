@@ -29,7 +29,8 @@ bspc config presel_feedback_color "#915FFF"
 
 # gaps
 bspc config gapless_monocle false
-bspc config window_gap 6
+# bspc config window_gap 8
+bspc config window_gap 5
 bspc config gapless_monocle      true
 
 # monocle

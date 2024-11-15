@@ -15,7 +15,7 @@ style = "normal"
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
-style = "Bold"
+style = "bold"
 
 [window]
 dynamic_title = true

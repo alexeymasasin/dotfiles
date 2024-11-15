@@ -40,8 +40,8 @@ local colors = {
             options = {
                 theme = rcw_120,
                 globalstatus = true,
-                component_separators = "│",
-                section_separators = { left = "", right = "" },
+                component_separators = "~",
+                section_separators = { left = " [ ~", right = "] " },
                 -- disabled_filetypes = {
                 --     "neo-tree",
                 -- },
