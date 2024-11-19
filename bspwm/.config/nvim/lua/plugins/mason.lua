@@ -1,24 +1,28 @@
 return {
-    "williamboman/mason.nvim",
-    dependencies = {
-        "williamboman/mason-lspconfig.nvim",
-    },
-    config = function()
-        require("mason").setup({
-            opts = {
-                ensure_installed = {
-                    "eslint-lsp",
-                    "tailwindcss-language-server",
-                    "typescript-language-server",
-                    "prettierd",
+    {
+        "williamboman/mason.nvim",
+        lazy = false,
+        config = function()
+            require("mason").setup({
+                opts = {
+                    ensure_installed = {
+                        "eslint-lsp",
+                        "tailwindcss-language-server",
+                        "typescript-language-server",
+                        "prettierd",
+                    },
                 },
-            },
-        })
-
-        require("mason-lspconfig").setup({
+            })
+        end,
+    },
+    {
+        "williamboman/mason-lspconfig.nvim",
+        lazy = false,
+        opts = {
+            auto_install = true,
             ensure_installed = {
                 "ts_ls",
             },
-        })
-    end,
+        },
+    },
 }

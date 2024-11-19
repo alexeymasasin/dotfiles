@@ -7,7 +7,7 @@ vim.g.formatoptions = "qrn1"
 vim.opt.showmode = false
 vim.opt.updatetime = 100
 vim.wo.signcolumn = "yes"
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 16
 vim.opt.wrap = false
 vim.wo.linebreak = true
 vim.opt.virtualedit = "block"
@@ -50,8 +50,7 @@ vim.opt.termguicolors = true
 vim.opt.colorcolumn = "80"
 
 vim.opt.cmdheight = 0
-vim.cmd([[colorscheme moonfly]])
--- vim.cmd([[colorscheme rose-pine]])
+-- vim.cmd([[colorscheme moonfly]])
 -- vim.cmd([[TransparentEnable]])
 
 -- Lines
