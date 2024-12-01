@@ -50,7 +50,7 @@ vim.opt.termguicolors = true
 vim.opt.colorcolumn = "80"
 
 vim.opt.cmdheight = 0
--- vim.cmd([[colorscheme moonfly]])
+vim.cmd([[colorscheme moonfly]])
 -- vim.cmd([[TransparentEnable]])
 
 -- Lines

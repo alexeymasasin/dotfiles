@@ -7,14 +7,14 @@ TERM = "xterm-256color"
 
 [font]
 builtin_box_drawing = true
-size = 13.0
+size = 17.0
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "HackNerdFontMono"
 style = "normal"
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "HackNerdFontMono"
 style = "bold"
 
 [window]

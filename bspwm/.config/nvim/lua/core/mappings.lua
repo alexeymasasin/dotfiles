@@ -1,8 +1,8 @@
 vim.g.mapleader = " "
 
 -- NeoTree
-vim.keymap.set("n", "<leader>E", ":Neotree float toggle<CR>", { desc = "Reveal neo-tree (floating)" })
-vim.keymap.set("n", "<leader>e", ":Neotree left toggle<CR>", { desc = "Reveal neo-tree (left)" })
+vim.keymap.set("n", "<leader>e", ":Neotree float toggle<CR>", { desc = "Reveal neo-tree (floating)" })
+vim.keymap.set("n", "<leader>E", ":Neotree left toggle<CR>", { desc = "Reveal neo-tree (left)" })
 
 -- UI
 vim.keymap.set("n", "<leader>T", "<cmd>:TransparentToggle<CR>", { desc = "Toggle background transparency" })

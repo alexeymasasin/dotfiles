@@ -15,13 +15,13 @@ return {
         vim.fn.sign_define("DiagnosticSignHint", { text = "󰌵", texthl = "DiagnosticSignHint" })
 
         require("neo-tree").setup({
-            close_if_last_window = false, -- Close Neo-tree if it is the last window left in the tab
+            close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
             popup_border_style = "rounded",
             enable_git_status = true,
             enable_diagnostics = true,
             open_files_do_not_replace_types = { "terminal", "trouble", "qf" }, -- when opening files, do not use windows containing these filetypes or buftypes
-            sort_case_insensitive = false, -- used when sorting files and directories in the tree
-            sort_function = nil, -- use a custom function for sorting files and directories in the tree
+            sort_case_insensitive = false,                                     -- used when sorting files and directories in the tree
+            sort_function = nil,                                               -- use a custom function for sorting files and directories in the tree
             -- sort_function = function (a,b)
             --       if a.type == b.type then
             --           return a.path > b.path
@@ -34,7 +34,7 @@ return {
                     enable_character_fade = true,
                 },
                 indent = {
-                    indent_size = 1,
+                    indent_size = 2,
                     padding = 1, -- extra padding on left hand side
                     -- indent guides
                     with_markers = true,
@@ -50,7 +50,7 @@ return {
                 icon = {
                     folder_closed = "",
                     folder_open = "",
-                    folder_empty = "󰜌",
+                    folder_empty = "",
                     provider = function(icon, node, state) -- default icon provider utilizes nvim-web-devicons if available
                         if node.type == "file" or node.type == "terminal" then
                             local success, web_devicons = pcall(require, "nvim-web-devicons")
@@ -79,10 +79,10 @@ return {
                 git_status = {
                     symbols = {
                         -- Change type
-                        added = "", -- or "✚", but this is redundant info if you use git_status_colors on the name
-                        modified = "", -- or "", but this is redundant info if you use git_status_colors on the name
+                        added = "[A]", -- or "✚", but this is redundant info if you use git_status_colors on the name
+                        modified = "", -- or "", but this is redundant info if you use git_status_colors on the name
                         deleted = "✖", -- this can only be used in the git_status source
-                        renamed = "󰁕", -- this can only be used in the git_status source
+                        renamed = "[R]", -- this can only be used in the git_status source
                         -- Status type
                         untracked = "",
                         ignored = "",
@@ -118,7 +118,7 @@ return {
             commands = {},
             window = {
                 position = "left",
-                width = 30,
+                width = 40,
                 mapping_options = {
                     noremap = true,
                     nowait = true,
@@ -182,7 +182,7 @@ return {
             filesystem = {
                 filtered_items = {
                     visible = false, -- when true, they will just be displayed differently than normal items
-                    hide_dotfiles = true,
+                    hide_dotfiles = false,
                     hide_gitignored = true,
                     hide_hidden = true, -- only works on Windows for hidden files/directories
                     hide_by_name = {
@@ -193,7 +193,7 @@ return {
                         --"*/src/*/tsconfig.json",
                     },
                     always_show = { -- remains visible even if other settings would normally hide it
-                        --".gitignored",
+                        ".gitignored",
                     },
                     always_show_by_pattern = { -- uses glob style patterns
                         --".env*",
@@ -207,11 +207,11 @@ return {
                     },
                 },
                 follow_current_file = {
-                    enabled = true, -- This will find and focus the file in the active buffer every time
+                    enabled = true,                     -- This will find and focus the file in the active buffer every time
                     --               -- the current file is changed while the tree is open.
-                    leave_dirs_open = false, -- `false` closes auto expanded dirs, such as with `:Neotree reveal`
+                    leave_dirs_open = true,             -- `false` closes auto expanded dirs, such as with `:Neotree reveal`
                 },
-                group_empty_dirs = false, -- when true, empty folders will be grouped together
+                group_empty_dirs = false,               -- when true, empty folders will be grouped together
                 hijack_netrw_behavior = "open_default", -- netrw disabled, opening a directory opens neo-tree
                 -- in whatever position is specified in window.position
                 -- "open_current",  -- netrw disabled, opening a directory opens within the
@@ -255,11 +255,11 @@ return {
             },
             buffers = {
                 follow_current_file = {
-                    enabled = true, -- This will find and focus the file in the active buffer every time
+                    enabled = true,          -- This will find and focus the file in the active buffer every time
                     --              -- the current file is changed while the tree is open.
                     leave_dirs_open = false, -- `false` closes auto expanded dirs, such as with `:Neotree reveal`
                 },
-                group_empty_dirs = true, -- when true, empty folders will be grouped together
+                group_empty_dirs = true,     -- when true, empty folders will be grouped together
                 show_unloaded = true,
                 window = {
                     mappings = {

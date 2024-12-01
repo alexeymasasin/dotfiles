@@ -5,7 +5,8 @@ return {
         local bufferline = require("bufferline")
         require("bufferline").setup({
             options = {
-                buffer_close_icon = "󰅖",
+                -- buffer_close_icon = "󰅖",
+                buffer_close_icon = "[C]",
                 themable = true,
                 numbers = "ordinal",
                 mode = "buffers",
@@ -13,7 +14,7 @@ return {
                 offsets = {
                     {
                         filetype = "neo-tree",
-                        text = "[~ neo-tree]",
+                        text = "[ ~ neo-tree]",
                         separator = true,
                         padding = 0,
                     },
@@ -27,7 +28,7 @@ return {
                 },
                 -- separator_style = "thick",
                 style_preset = {
-                    bufferline.style_preset.no_italic,
+                    -- bufferline.style_preset.no_italic,
                     bufferline.style_preset.no_bold,
                 },
             },
