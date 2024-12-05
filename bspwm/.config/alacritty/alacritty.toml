@@ -19,7 +19,8 @@ style = "bold"
 
 [window]
 dynamic_title = true
-opacity = 0.55
+# opacity = 0.55
+opacity = 1
 title = "Alacritty"
 padding.x = 0
 padding.y = 0

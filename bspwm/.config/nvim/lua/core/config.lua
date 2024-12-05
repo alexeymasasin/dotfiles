@@ -42,14 +42,20 @@ vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.smartindent = true
+vim.opt.smarttab = true
 
 -- UI
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "120"
 
+-- Sidebar
 vim.opt.cmdheight = 0
+vim.opt.numberwidth = 4
+vim.opt.showcmd = true
+vim.opt.cmdheight = 0
+
 vim.cmd([[colorscheme moonfly]])
 -- vim.cmd([[TransparentEnable]])
 

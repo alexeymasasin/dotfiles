@@ -10,6 +10,7 @@ return {
                         "tailwindcss-language-server",
                         "typescript-language-server",
                         "prettierd",
+                        "css-lsp",
                     },
                 },
             })

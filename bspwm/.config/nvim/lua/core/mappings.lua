@@ -1,8 +1,8 @@
 vim.g.mapleader = " "
 
 -- NeoTree
-vim.keymap.set("n", "<leader>e", ":Neotree float toggle<CR>", { desc = "Reveal neo-tree (floating)" })
-vim.keymap.set("n", "<leader>E", ":Neotree left toggle<CR>", { desc = "Reveal neo-tree (left)" })
+vim.keymap.set("n", "<leader>E", ":Neotree float toggle<CR>", { desc = "Reveal neo-tree (floating)" })
+vim.keymap.set("n", "<leader>e", ":Neotree right toggle<CR>", { desc = "Reveal neo-tree (left)" })
 
 -- UI
 vim.keymap.set("n", "<leader>T", "<cmd>:TransparentToggle<CR>", { desc = "Toggle background transparency" })
@@ -15,8 +15,12 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 vim.keymap.set("n", "<leader>o", ":wincmd w<CR>", { desc = "Toggle focus" })
 
-vim.keymap.set("n", "<leader>q", ":Bdelete<CR>", { desc = "Close current buffer (no save)" })
+vim.keymap.set("n", "<leader>q", ":q<CR>", { desc = "Close current buffer (no save)" })
 vim.keymap.set("n", "<leader>QA", ":qa!<CR>", { desc = "Close neovim (no save)" })
+
+-- Move lines
+vim.keymap.set("n", "<A-j>", ":m .+1<CR>==", { desc = "Move line up" }) -- move line up(n)
+vim.keymap.set("n", "<A-k>", ":m .-2<CR>==", { desc = "Move line up" }) -- move line down(n)
 
 -- Comments
 vim.keymap.set("n", "<leader>/", ":CommentToggle<CR>", { desc = "Comment a single line" })

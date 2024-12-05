@@ -6,10 +6,10 @@ return {
         require("bufferline").setup({
             options = {
                 -- buffer_close_icon = "󰅖",
-                buffer_close_icon = "[C]",
+                buffer_close_icon = "",
                 themable = true,
                 numbers = "ordinal",
-                mode = "buffers",
+                mode = "tabs",
                 tab_size = 20,
                 offsets = {
                     {
@@ -28,8 +28,8 @@ return {
                 },
                 -- separator_style = "thick",
                 style_preset = {
-                    -- bufferline.style_preset.no_italic,
-                    bufferline.style_preset.no_bold,
+                    bufferline.style_preset.no_italic,
+                    -- bufferline.style_preset.no_bold,
                 },
             },
         })
